@@ -13,11 +13,11 @@ html, body {
   .card {
       &-container {
           position: relative;
-          width: 260px;
+          width: 80vw;
+          max-width: 350px;
           height: 200px;
           margin: 15px;
           &--review {
-              width: 300px;
               height: 250px;
               margin: 0 20px;
           }
@@ -81,7 +81,8 @@ html, body {
 
   .slick {
     &-slider {
-        width: 250px;
+        width: 80vw;
+        max-width: 350px;
     }
     &-arrow {
         z-index: 1;
