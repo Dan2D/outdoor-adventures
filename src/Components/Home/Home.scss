@@ -1,0 +1,57 @@
+
+.categories-container,
+.blurb-container,
+.tours-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.blurb {
+    &__btn {
+        color: var(--color-red-dark);
+        background: var(--color-red);
+        align-self: flex-end;
+        &:hover {
+            color: var(--color-red-hover);
+        }
+    }
+}
+
+.tours__btn {
+    color: var(--color-orange-dark);
+    background: var(--color-orange);
+    align-self: flex-start;
+    &:hover {
+        color: var(--color-orange-hover);
+    }
+}
+
+.review {
+    &-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 50px 20px;
+    }
+    &-txt {
+        margin:10px;
+    }
+    &-name {
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+    }
+    &-slider {
+        height: 300px;
+        width: 100vw;
+        &.slick-slider {
+            height: 250px;
+            width: 100vw;
+        }
+    }
+    
+    
+}

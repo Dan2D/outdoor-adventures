@@ -1,0 +1,30 @@
+:root {
+    --color-red: #F47272;
+    --color-red-hover: rgb(255, 200, 49);
+    --color-red-dark: rgb(95, 15, 15);
+    --color-orange: #F1BC53;
+    --color-orange-hover: rgb(236, 255, 62);
+    --color-orange-dark: rgb(109, 76, 6);
+    --color-cyan: #4AD9D0;
+    --color-cyan-hover: rgb(132, 255, 153);
+    --color-cyan-dark: rgb(53, 92, 145);
+    --color-blue: #366F99;
+    --color-blue-hover: rgb(122, 255, 248);
+    --color-blue-dark: rgb(60, 122, 119);
+    --root-font-size: 16px;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    transition: all ease 700ms;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+}
