@@ -7,10 +7,11 @@ import Tours from "../Tours/Tours";
 import Reviews from "../Reviews/Reviews";
 import "./Home.scss";
 
-function Home() {
+
+function Home(props) {
     return (
         <div>
-            <Hero />
+            <Hero page="home" text="Come On In The Water's Fine!"/>
             <Categories />
             <Blurb />
             <Tours />

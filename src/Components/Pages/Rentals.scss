@@ -1,0 +1,49 @@
+.rental-tiles-container {
+    margin: 0 10px;
+}
+
+.tour-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    background: lightgray;
+}
+
+.explore-msg {
+    &-container {
+        position: relative;
+        background: #F1BC53;
+        color: white;
+        padding: 0 10px 50px 10px;
+        & p, h1 {
+            margin: 0;
+            z-index: 1;
+        }
+    }
+    &__svg {
+        width: 120px;
+        margin: 0 20px;
+        z-index: 1;
+    }
+    &__sun-container {
+        position: absolute;
+        bottom: -150px;
+        right: 0;
+        width: 100vw;
+        padding: 0 20px;
+        background: #F1BC53;
+    }
+    &__sun {
+        position: relative;
+        height:200px;
+        width: 200px;
+        border-radius: 50%;
+        background: #F4F07D;
+        z-index: 0;
+    }
+}
+
+.flex-container {
+    margin: 20px 0;
+}

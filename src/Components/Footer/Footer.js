@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 import SVG from 'react-inlinesvg';
 import "./Footer.scss";
-// Appropriate place to use bootstrap grid???
+
 function Footer() {
     return (
         <div className='footer-container'>

@@ -1,6 +1,7 @@
 .footer {
     &-container {
-        background: var(--sky-bg);
+        position: relative;
+        // background: var(--sky-bg);
     }
     &-waves {
         width: 500%;

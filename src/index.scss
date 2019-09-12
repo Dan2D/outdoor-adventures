@@ -1,82 +1,160 @@
 html, body {
-    min-width: 100vw;
-    min-height: 100vh;
-    overflow-x: hidden;
-    font-family: 'Oxygen', sans-serif;
-  }
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Oxygen', sans-serif;
+}
 
-  a, p h1, h2, h3, h4, h5, button, span {
-      color: white;
-      margin: 0;
-  }
+a, p h1, h2, h3, h4, h5, button, span {
+    color: white;
+    margin: 0;
+}
 
-  .card {
-      &-container {
-          position: relative;
-          width: 80vw;
-          max-width: 350px;
-          height: 200px;
-          margin: 15px;
-          &--review {
-              height: 250px;
-              margin: 0 20px;
+.card {
+    &-container {
+        position: relative;
+        width: 80vw;
+        max-width: 350px;
+        margin: 15px;
+        &--review {
+            height: 250px;
+            margin: 0 20px;
+        }
+    }
+    &__top {
+      position: relative;
+        width: 100%;
+        height: 200px;
+        background: rgb(190, 190, 190);
+        border-radius: 5px 5px 0 0;
+        &--category,
+        &--tour,
+        &--review {
+            border-radius: 5px;
+        }
+        &--review {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+    &__top-txt {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        display: flex;
+        flex-direction: column;
+        & p, h4 {
+            font-weight: lighter;
+            color: white;
+            margin: 0;
+        }
+        & p {
+          font-size: 1em;
+        }
+    }
+    &__title {
+        font-size: 1.25em;
+    }
+    &__btn {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        &--category {
+            color: var(--color-cyan-dark);
+          background: var(--color-cyan);
+          &:hover {
+              color: var(--color-cyan-hover);
           }
-      }
-      &__top {
-          width: 100%;
-          height: 100%;
-          background: rgb(190, 190, 190);
-          border-radius: 5px 5px 0 0;
-          &--category,
-          &--tour,
-          &--review {
-              border-radius: 5px;
-          }
-          &--review {
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-          }
-      }
-      &__top-txt {
-          position: absolute;
-          top: 5px;
-          left: 5px;
-          display: flex;
-          flex-direction: column;
-          & p, h4 {
-              font-weight: lighter;
-              color: white;
-              margin: 0;
-          }
-          & p {
-            font-size: 1em;
-          }
-      }
-      &__title {
-          font-size: 1.25em;
-      }
-      &__btn {
-          position: absolute;
-          bottom: 10px;
-          right: 10px;
-          &--category {
-              color: var(--color-cyan-dark);
-            background: var(--color-cyan);
+        }
+        &--tour {
+            color: var(--color-orange-dark);
+            background: var(--color-orange);
             &:hover {
-                color: var(--color-cyan-hover);
+              color: var(--color-orange-hover);
             }
+        }
+        &--detail {
+          color: var(--color-orange-dark);
+          background: var(--color-orange);
+          align-self: flex-start;
+          &:hover {
+              color: var(--color-orange-hover);
           }
-          &--tour {
-              color: var(--color-orange-dark);
-              background: var(--color-orange);
-              &:hover {
-                color: var(--color-orange-hover);
-              }
-          }
-          
-          
-      }
+        }
+    }
+    &__bottom {
+      background: white;
+      padding: 5px 10px;
+      border-radius: 0 0 5px 5px;
+    }
+}
+
+.tile {
+  &-container {
+    position: relative;
+    width: 95vw;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.4);
+    & p {
+      margin: 0;
+      color: white;
+    }
+  }
+  &__title {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  &__price-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 20px 0;
+    &--bikes {
+      padding-bottom: 35px;
+    }
+  }
+  &__msg {
+    width: 80%;
+  }
+  &__icon {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    height: 50px;
+  }
+}
+
+.price {
+  &-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & p{
+      color: white;
+      margin: 0;      
+    }
+  }
+  &__title{
+    position: relative;
+    margin-bottom: 2px;
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -3px;
+      left: -3px;
+      width:110%;
+      border-bottom: 2px solid white;
+      border-radius: 5px;
+    }
+  }
+}
+  .vertical-line {
+    height: 100px;
+    border-left: 2px solid rgb(233, 233, 233);
+    border-radius: 2px;
   }
 
   .slick {

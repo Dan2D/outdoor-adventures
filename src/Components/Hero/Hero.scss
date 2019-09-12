@@ -2,10 +2,19 @@
     &-container {
         position: relative;
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
         height: 40vh;
+        align-items: center;
         background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../Images/hero-bg.jpg");
         background-size: cover;
+        &--explore {
+            background: var(--color-orange);
+        }
+    }
+    &__page-title {
+        align-self: flex-start;
+        margin: 60px 0 0 10px;
     }
     &__c2a-txt {
         width: 300px;
@@ -24,3 +33,11 @@
         }
     }
 }
+
+.gear-svg {
+    position: absolute;
+    right: -20px;
+    bottom: 10px;
+    height: 100px;
+}
+

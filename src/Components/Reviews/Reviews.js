@@ -41,6 +41,7 @@ function Reviews() {
                     userName='Ipsum Lorem' />
                 </div>
             </Slider> 
+            <div className='review-extra-bg' />
         </div>
     )
 }
