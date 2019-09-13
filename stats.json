@@ -4,9 +4,9 @@
   "warnings": [
   ],
   "version": "4.39.3",
-  "hash": "4f9119a742522663b3ac",
-  "time": 5672,
-  "builtAt": 1568416675169,
+  "hash": "8f92b2165f767af746d3",
+  "time": 6024,
+  "builtAt": 1568416805701,
   "publicPath": "dist/",
   "outputPath": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\dist",
   "assetsByChunkName": {
@@ -176,7 +176,7 @@
     },
     {
       "name": "bundle.js.br",
-      "size": 58851,
+      "size": 58915,
       "chunks": [
       ],
       "chunkNames": [
@@ -278,7 +278,7 @@
     },
     {
       "name": "index.html",
-      "size": 1806,
+      "size": 1810,
       "chunks": [
       ],
       "chunkNames": [
@@ -27976,7 +27976,7 @@
       "assets": [
         {
           "name": "index.html",
-          "size": 571232,
+          "size": 571236,
           "chunks": [
             0
           ],
@@ -28020,13 +28020,13 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 543434,
+          "size": 543438,
           "names": [
           ],
           "files": [
             "index.html"
           ],
-          "hash": "a1e115d1d612f98b0723",
+          "hash": "85d6578e5be3983951d9",
           "siblings": [
           ],
           "parents": [
@@ -28042,7 +28042,7 @@
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
               "index": 0,
               "index2": 3,
-              "size": 1953,
+              "size": 1957,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -28249,7 +28249,7 @@
           "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
           "index": 0,
           "index2": 3,
-          "size": 1953,
+          "size": 1957,
           "cacheable": true,
           "built": true,
           "optional": false,
