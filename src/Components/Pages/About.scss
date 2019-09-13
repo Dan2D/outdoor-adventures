@@ -1,0 +1,19 @@
+.about {
+    &-section {
+        padding: 20px;
+        & p, h3 {
+            color: black;
+        }
+    }
+    &__story-img {
+        height: 250px;
+    }
+    &-slider-container {
+        display:flex;
+        justify-content: center;
+    }
+}
+
+.slick-slide div img.slide-img {
+    width: 200px;
+}

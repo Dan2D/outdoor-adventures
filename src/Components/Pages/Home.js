@@ -9,6 +9,7 @@ import "./Home.scss";
 
 
 function Home(props) {
+    window.scrollTo(0,0);
     return (
         <div>
             <Hero page="home" text="Come On In The Water's Fine!"/>

@@ -14,7 +14,7 @@ function Nav() {
                 <SVG className='nav__site-logo' src={require("../../Images/site-logo.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="black"')} />
             </Link>
             <button className='nav__hamburger-btn' onClick={() => setToggleMenu(!toggleMenu)}>
-                <SVG className='nav__hamburger-svg' src={require("../../Images/hamburger-icon.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="black"')} />
+                <SVG className='nav__hamburger-svg' src={require("../../Images/icons/hamburger-icon.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="black"')} />
             </button>
             <div className={`nav-menu ${toggleMenu ? "nav-menu--active" : ""}`}>
             <Wave className='wave-bg' 
@@ -28,10 +28,9 @@ function Nav() {
                 }}
             />
                 <Link className='nav-lnk' to="/" onClick={() => setToggleMenu(!toggleMenu)}>HOME</Link>
-                <Link className='nav-lnk' to="/rentals" onClick={() => setToggleMenu(!toggleMenu)}>RENTALS</Link>
-                <Link className='nav-lnk' to="/tours" onClick={() => setToggleMenu(!toggleMenu)}>TOURS</Link>
+                <Link className='nav-lnk' to="/explore" onClick={() => setToggleMenu(!toggleMenu)}>EXPLORE</Link>
                 <Link className='nav-lnk' to="/about" onClick={() => setToggleMenu(!toggleMenu)}>ABOUT</Link>
-                <Link className='nav-lnk' to="/contact" onClick={() => setToggleMenu(!toggleMenu)}>CONTACT</Link>
+                <Link className='nav-lnk' to="/contact" onClick={() => setToggleMenu(!toggleMenu)}>CONTACT &amp; INFO</Link>
             </div>
         </div>
     )

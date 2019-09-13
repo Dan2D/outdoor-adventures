@@ -6,7 +6,9 @@ import Footer from "../Footer/Footer";
 import "./App.scss";
 
 const Home = lazy(() => import("../Pages/Home"));
-const Rentals = lazy(() => import("../Pages/Rentals"));
+const Explore = lazy(() => import("../Pages/Explore"));
+const About = lazy(() => import("../Pages/About"));
+const Contact = lazy(() => import("../Pages/Contact"));
 
 function App() {
     return (
@@ -15,7 +17,9 @@ function App() {
                 <Switch>
                     <Suspense fallback={<div>Loading...</div>}>
                         <Route exact path="/" component={Home} />
-                        <Route path="/rentals" component={Rentals} />
+                        <Route path="/explore" component={Explore} />
+                        <Route path="/about" component={About} />
+                        <Route path="/contact" component={Contact} />
                     </Suspense>
                 </Switch>
             <Footer />

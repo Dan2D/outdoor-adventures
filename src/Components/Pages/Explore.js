@@ -6,10 +6,11 @@ import Hero from "../Hero/Hero";
 import Tile from "../Tile";
 import Card from "../Card";
 import ExploreMsg from "../Explore/ExploreMsg";
-import "./Rentals.scss";
+import "./Explore.scss";
 
 
-function Rentals() {
+function Explore() {
+    window.scrollTo(0,0);
     let tourCards = [];
         Object.keys(TourData).forEach(tour => {
             tourCards.push(<Card 
@@ -23,12 +24,12 @@ function Rentals() {
 
     return (
         <div>
-            <Hero text="- Grab Your Gear And Explore The Sites -" page="explore"/>
+            <Hero page='explore' title='Explore' text='- Grab Your Gear And Explore The Sites -' />
             <div className='rental-tiles-container'>
-                <Tile rental="kayaks" />
-                <Tile rental="sup" />
-                <Tile rental="canoes" />
-                <Tile rental="bikes" />
+                <Tile rental='kayaks' />
+                <Tile rental='sup' />
+                <Tile rental='canoes' />
+                <Tile rental='bikes' />
             </div>
             <div className='tour-cards-container'>
                 {tourCards}
@@ -38,4 +39,4 @@ function Rentals() {
     )
 }
 
-export default Rentals
+export default Explore
