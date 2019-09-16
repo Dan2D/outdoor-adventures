@@ -13,10 +13,12 @@ function Explore() {
     window.scrollTo(0,0);
     let tourCards = [];
         Object.keys(TourData).forEach(tour => {
+            console.log(tour)
             tourCards.push(<Card 
                             key={tour} 
                             type='detail' 
                             price={TourData[tour].price} 
+                            bg={tour}
                             cardTitle={TourData[tour].name} 
                             detailTxt={TourData[tour].description} 
                             />)

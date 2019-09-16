@@ -11,10 +11,10 @@ function Nav() {
     return (
         <div className='nav-container'>
             <Link to="/">
-                <SVG className='nav__site-logo' src={require("../../Images/site-logo.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="black"')} />
+                <SVG className='nav__site-logo' src={require("../../images/site-logo.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="black"')} />
             </Link>
             <button className='nav__hamburger-btn' onClick={() => setToggleMenu(!toggleMenu)}>
-                <SVG className='nav__hamburger-svg' src={require("../../Images/icons/hamburger-icon.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="black"')} />
+                <SVG className='nav__hamburger-svg' src={require("../../images/icons/hamburger-icon.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="black"')} />
             </button>
             <div className={`nav-menu ${toggleMenu ? "nav-menu--active" : ""}`}>
             <Wave className='wave-bg' 

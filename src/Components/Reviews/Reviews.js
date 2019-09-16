@@ -17,28 +17,29 @@ function Reviews() {
         <div className='review-container'>
             <Slider {...settings}>
                 <div>
-                    <Card type='review' cardTitle='Lorem Ipsum' 
-                    reviewTxt=' Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit. Ut tristique enim ut felis posuere 
-                                consequat sit amet ut orci. Nam et enim vitae tellus 
-                                consectetur rutrum.'
-                    userName='Ipsum Lorem' />
+                    <Card type='review' cardTitle='Great Staff and Views!' 
+                    reviewTxt=' We Had a great time. The two girls who took us on 
+                                the tour were awesome and knowledgeable. We got to see two seals. 
+                                The weather was warm. Definitely recommend this to all. We are newbies 
+                                to the kayaking and they gave us a good class and we felt very safe on the water.'
+                    userName='Marlie Mata' />
                 </div>
                 <div>
-                <Card type='review' cardTitle='Lorem Ipsum' 
-                    reviewTxt=' Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit. Ut tristique enim ut felis posuere 
-                                consequat sit amet ut orci. Nam et enim vitae tellus 
-                                consectetur rutrum.'
-                    userName='Ipsum Lorem' />
+                <Card type='review' cardTitle='What an Experience!' 
+                    reviewTxt=' Had a great experience this Sunday at Outdoor Adventures! 
+                                Location is excellent and staff is kind and courteous. 
+                                I would definitely recommend this place if you are looking 
+                                to get on the water.'
+                    userName='Kimberly Adams' />
                 </div>
                 <div>
-                <Card type='review' cardTitle='Lorem Ipsum' 
-                    reviewTxt=' Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit. Ut tristique enim ut felis posuere 
-                                consequat sit amet ut orci. Nam et enim vitae tellus 
-                                consectetur rutrum.'
-                    userName='Ipsum Lorem' />
+                <Card type='review' cardTitle='Great Fun and Learned A Lot Too!' 
+                    reviewTxt=' Our guide Travis was great!!! 
+                                He was knowledgeable and made sure 
+                                that our safety was his number one priority! 
+                                He gave us a bunch of fun facts and was always 
+                                positive! Great staff, great tour! Worth the trip!'
+                    userName='Alan Taylor' />
                 </div>
             </Slider> 
             <div className='review-extra-bg' />

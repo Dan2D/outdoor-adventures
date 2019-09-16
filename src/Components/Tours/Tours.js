@@ -6,9 +6,9 @@ import Card from "../Card";
 function Tours() {
     return (
         <div className='tours-container'>
-            <Card type="tour" price={60} cardTitle="Tour-1" />
-            <Card type="tour" price={80} cardTitle="Tour-2" />
-            <Card type="tour" price={120} cardTitle="Tour-3" />
+            <Card type="tour" price={60} cardTitle="Bay Area Tour" bg="tour1"/>
+            <Card type="tour" price={80} cardTitle="LightHouse Tour" bg="tour2"/>
+            <Card type="tour" price={120} cardTitle="3-Hour Night Tour" bg="tour3"/>
             <Link className='tours__btn btn' to="/tours">More Tours...</Link>
         </div>
     )

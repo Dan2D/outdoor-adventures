@@ -17,7 +17,8 @@ a, p h1, h2, h3, h4, h5, button, span {
         max-width: 350px;
         margin: 15px;
         &--review {
-            height: 250px;
+          width: 90vw;
+            height: 300px;
             margin: 0 20px;
         }
     }
@@ -25,12 +26,20 @@ a, p h1, h2, h3, h4, h5, button, span {
       position: relative;
         width: 100%;
         height: 200px;
-        background: rgb(190, 190, 190);
+        background: white;
         border-radius: 5px 5px 0 0;
         &--category,
         &--tour,
         &--review {
             border-radius: 5px;
+        }
+        &--review {
+          width: 90vw;
+          max-width: 350px;
+          height: 250px;
+          & .card__top-txt h4 {
+            color: black;
+          }
         }
         &--review {
             display: flex;

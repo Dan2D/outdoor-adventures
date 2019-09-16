@@ -13,21 +13,25 @@ function Blurb() {
         <div className='blurb-container'>
             <Slider {...settings}>
                 <div>
-                    <img src={require("../../Images/hero-bg.jpg")} alt="slide" />
+                    <img src={require("../../images/hero-bg.jpg")} alt="slide" />
                 </div>
                 <div>
-                    <img src={require("../../Images/slide-2.jpg")} alt="slide" />
+                    <img src={require("../../images/slide-2.jpg")} alt="slide" />
                 </div>
                 <div>
-                    <img src={require("../../Images/slide-3.jpg")} alt="slide" />
+                    <img src={require("../../images/slide-3.jpg")} alt="slide" />
                 </div>
             </Slider>
             <p>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Ut tristique enim ut felis posuere consequat sit amet ut orci. 
-                Nam et enim vitae tellus consectetur rutrum.  Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit. Ut tristique enim ut felis posuere consequat 
-                sit amet ut orci. Nam et enim vitae tellus consectetur rutrum. 
+            Our mission is to provide people with a means to experience the natural wonders
+             of our wonderful little corner of the world while prioritizing safety and fun. Environmental
+              protection and education are very important to us and so we incorporate teachings about 
+              the local ecology and offering simple ways to positively impact the shoreline and waterways,
+               like picking up trash and minimizing harmful runoff. 
+            <br/><br/>
+            We offer only the highest quality tours with our attention to detail and sites, the highest rated customer service,
+             and a fantastically amazing staff at your service. Just checkout our ratings and reviews
+             online!
             </p>
             <Link className='blurb__btn btn' to="/tours">Check it Out!</Link>
         </div>

@@ -2,10 +2,10 @@ import React from 'react';
 import {RentalsData as rentals} from "../Utils/RentalsInfo";
 
 function Tile(props) {
-    const bg = `../Images/${props.rental}-bg.jpg`;
     const tileStyle = {
-        background: `linear-gradient(to bottom, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(${require("../Images/" + props.rental + "-bg.jpg")})`,
-        backgroundSize: 'cover'
+        background: `linear-gradient(to bottom, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(${require("../images/rentals/" + props.rental + "-bg.jpg")})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'top'
     }
     return (
         <div className={`tile-container tile-container--${props.rental}`} style={tileStyle}>
@@ -26,7 +26,7 @@ function Tile(props) {
                 </>}
             </div>
             <p className='tile__msg' >{rentals[props.rental].msg}</p>
-            <img className='tile__icon' src={require(`../Images/${props.rental}-icon.png`)} alt={props.rental} />
+            <img className='tile__icon' src={require(`../images/rentals/${props.rental}-icon.png`)} alt={props.rental} />
         </div>
     )
 }

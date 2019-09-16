@@ -19,8 +19,8 @@ function FAQS() {
                         <h5 className="mb-0">
                             Can I reserve a rental?
                         </h5>
-                        <button className="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                <SVG className='faqs-svg' src={require("../../Images/icons/arrow-icon.svg")} onClick={(e) => handleClick(e.currentTarget)} alt='faq arrow icon' />
+                        <button className="btn btn-link collapsed faq-btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <SVG className='faqs-svg' src={require("../../images/icons/arrow-icon.svg")} onClick={(e) => handleClick(e.currentTarget)} alt='faq arrow icon' />
                         </button>
                     </div>
 
@@ -36,8 +36,8 @@ function FAQS() {
                         <h5 className="mb-0">
                             When is last call for rentals?
                         </h5>
-                        <button className="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <SVG className='faqs-svg' src={require("../../Images/icons/arrow-icon.svg")} onClick={(e) => handleClick(e.currentTarget)} alt='faq arrow icon' />
+                        <button className="btn btn-link collapsed faq-btn" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <SVG className='faqs-svg' src={require("../../images/icons/arrow-icon.svg")} onClick={(e) => handleClick(e.currentTarget)} alt='faq arrow icon' />
                         </button>
                     </div>
                     <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#FaqAccordion">
@@ -51,8 +51,8 @@ function FAQS() {
                         <h5 className="mb-0">
                             How many days am I allowed to rent equipment?
                         </h5>
-                        <button className="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <SVG className='faqs-svg' src={require("../../Images/icons/arrow-icon.svg")} onClick={(e) => handleClick(e.currentTarget)} alt='faq arrow icon' />
+                        <button className="btn btn-link collapsed faq-btn" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <SVG className='faqs-svg' src={require("../../images/icons/arrow-icon.svg")} onClick={(e) => handleClick(e.currentTarget)} alt='faq arrow icon' />
                         </button>
                     </div>
                     <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#FaqAccordion">
@@ -66,8 +66,8 @@ function FAQS() {
                         <h5 className="mb-0">
                             What happens if I capsize?
                         </h5>
-                        <button className="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            <SVG className='faqs-svg' src={require("../../Images/icons/arrow-icon.svg")} onClick={(e) => handleClick(e.currentTarget)} alt='faq arrow icon' />
+                        <button className="btn btn-link collapsed faq-btn" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <SVG className='faqs-svg' src={require("../../images/icons/arrow-icon.svg")} onClick={(e) => handleClick(e.currentTarget)} alt='faq arrow icon' />
                         </button>
                     </div>
                     <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#FaqAccordion">

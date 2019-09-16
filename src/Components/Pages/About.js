@@ -16,34 +16,36 @@ function About() {
         <div className='about-container  '>
             <Hero page='about' title='About' text='Who is Outdoor Adventures?'/>
             <div className='about-section' >
-                <img className='about__story-img' src={require("../../Images/slide-2.jpg")} alt='person on sup' />
+                <img className='about__story-img' src={require("../../images/story-bg.jpg")} alt='kayak rental building' />
                 <h3>Our Story</h3>
                 <p className='about__story-txt'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Ut tristique enim ut felis posuere consequat sit amet ut orci.
-                Nam et enim vitae tellus consectetur rutrum. 
+                Our mission is to provide people with a means to experience the natural wonders
+                of our wonderful little corner of the world while prioritizing safety and fun. Environmental
+                protection and education are very important to us and so we incorporate teachings about 
+                the local ecology and offering simple ways to positively impact the shoreline and waterways,
+                like picking up trash and minimizing harmful runoff. 
                 <br/><br/>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Ut tristique enim ut felis posuere consequat sit amet ut orci.
-                Nam et enim vitae tellus consectetur rutrum.  
+                We offer only the highest quality tours with our attention to detail and sites, the highest rated customer service,
+                and a fantastically amazing staff at your service. Just checkout our ratings and reviews
+                online!
                 </p>
             </div>
             <div className='about-slider-container'>
                 <Slider {...settings} >
                     <div>
-                        <img tabindex="0" className='slide-img' src={require("../../Images/hero-bg.jpg")} alt="slide" />
+                        <img tabIndex="0" className='slide-img' src={require("../../images/hero-bg.jpg")} alt="slide" />
                     </div>
                     <div>
-                        <img tabindex="0" className='slide-img' src={require("../../Images/slide-2.jpg")} alt="slide" />
+                        <img tabIndex="0" className='slide-img' src={require("../../images/slide-2.jpg")} alt="slide" />
                     </div>
                     <div>
-                        <img tabindex="0" className='slide-img' src={require("../../Images/hero-bg.jpg")} alt="slide" />
+                        <img tabIndex="0" className='slide-img' src={require("../../images/slide-3.jpg")} alt="slide" />
                     </div>
                     <div>
-                        <img tabindex="0" className='slide-img' src={require("../../Images/slide-2.jpg")} alt="slide" />
+                        <img tabIndex="0" className='slide-img' src={require("../../images/tour1-bg.jpg")} alt="slide" />
                     </div>
                     <div>
-                        <img tabindex="0" className='slide-img' src={require("../../Images/hero-bg.jpg")} alt="slide" />
+                        <img tabIndex="0" className='slide-img' src={require("../../images/tour2-bg.jpg")} alt="slide" />
                     </div>
                 </Slider>
             </div>

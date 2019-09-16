@@ -7,16 +7,16 @@ function ExploreMsg() {
             <h1>Last Rentals and Reservations</h1>
             <div className='flex-container d-flex justify-content-between'>
                 <p>The last rental of the day is available 1 hour before closing and all rentals must be returned before closing hour.</p>
-                <SVG className='explore-msg__svg' src={require("../../Images/icons/hours-icon.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="white"')}/>
+                <SVG className='explore-msg__svg' src={require("../../images/icons/hours-icon.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="white"')}/>
             </div>
             <div className='flex-container d-flex justify-content-between'>
-            <SVG className='explore-msg__svg' src={require("../../Images/icons/bell-icon.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="white"')} />
+            <SVG className='explore-msg__svg' src={require("../../images/icons/bell-icon.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="white"')} />
                 <p>Reservations are only abailable for guided tours. Rentals are ron on a first-come, first-serve basis</p>
                 
             </div>
             <div className='flex-container d-flex justify-content-between'>
                 <p>If you're interested in staying out later, check out some of our sunset and late night tours!</p>
-                <SVG className='explore-msg__svg' src={require("../../Images/icons/moon-icon.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="white"')} />
+                <SVG className='explore-msg__svg' src={require("../../images/icons/moon-icon.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="white"')} />
             </div>
             <div className='explore-msg__sun-container'>
                 <div className='explore-msg__sun'/>
