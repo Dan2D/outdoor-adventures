@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Business for exploration of the outdoors, offers rentals and tours. Your gateway to the oustide world.",
   "main": "index.js",
+  "homepage": "https://dan2d.github.io/outdoor-adventures/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server",
-    "build": "webpack --config webpack.config.js"
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "rental",
@@ -29,10 +32,16 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "brotli-webpack-plugin": "^1.1.0",
-    "compression-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
     "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "gh-pages": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
     "react-hot-loader": "^4.12.12",
     "react-inlinesvg": "^1.1.6",
     "sass-loader": "^8.0.0",
@@ -42,9 +51,11 @@
     "webpack": "^4.39.3",
     "webpack-bundle-analyzer": "^3.5.0",
     "webpack-cli": "^3.3.8",
-    "webpack-dev-server": "^3.8.0"
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",

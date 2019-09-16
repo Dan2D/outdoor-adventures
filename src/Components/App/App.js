@@ -2,13 +2,17 @@ import React, {Suspense, lazy} from 'react';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 
 import Nav from "../Nav/Nav";
+import Home from "../Pages/Home";
+import Explore from "../Pages/Explore";
+import About from "../Pages/About";
+import Contact from "../Pages/Contact";
 import Footer from "../Footer/Footer";
 import "./App.scss";
 
-const Home = lazy(() => import("../Pages/Home"));
-const Explore = lazy(() => import("../Pages/Explore"));
-const About = lazy(() => import("../Pages/About"));
-const Contact = lazy(() => import("../Pages/Contact"));
+// const Home = lazy(() => import(/*webpackChunkName: "home"*/ "../Pages/Home"));
+// const Explore = lazy(() => import(/*webpackChunkName: "explore"*/ "../Pages/Explore"));
+// const About = lazy(() => import(/*webpackChunkName: "about"*/ "../Pages/About"));
+// const Contact = lazy(() => import(/*webpackChunkName: "contact"*/ "../Pages/Contact"));
 
 function App() {
     return (

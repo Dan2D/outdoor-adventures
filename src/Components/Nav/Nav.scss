@@ -35,7 +35,7 @@
         height: 100vh;
         background: rgba(0,0,0,0.75);
         padding: 10px;
-        transform: translateX(200px);
+        transform: translateX(300px);
         transition: all ease 1200ms;
         z-index: 1;
         &--active {
@@ -53,6 +53,15 @@
     }
 }
 
+.wave-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(-90deg) translateY(200px) scaleX(8);
+    height: 100%;
+    z-index: 1;
+  }
+
 @media screen and (min-width: 481px) {
     .hamburger-btn {
         display: none;
@@ -63,13 +72,8 @@
         transform: translateX(0);
         transition: all ease 700ms;
     }
+    .wave-bg {
+        display: none;
+      }
 }
 
-.wave-bg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: rotate(-90deg) translateY(200px) scaleX(8);
-    height: 100%;
-    z-index: 1;
-  }
