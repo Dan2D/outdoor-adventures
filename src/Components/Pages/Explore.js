@@ -1,4 +1,5 @@
 import React from 'react';
+import queryString from 'query-string';
 import {TourData} from "../../Utils/ToursInfo";
 
 
@@ -9,11 +10,18 @@ import ExploreMsg from "../Explore/ExploreMsg";
 import "./Explore.scss";
 
 
-function Explore() {
-    window.scrollTo(0,0);
+function Explore(props) {
+    let query = queryString.parse(props.location.search);
+    if (query.category === "tours"){
+        console.log(document.getElementById("tours"))
+    setTimeout(() => {document.getElementById("tours").scrollIntoView(true)}, 200);
+    }
+    else {
+        window.scrollTo(0,0);
+    }
+    
     let tourCards = [];
         Object.keys(TourData).forEach(tour => {
-            console.log(tour)
             tourCards.push(<Card 
                             key={tour} 
                             type='detail' 
@@ -28,12 +36,14 @@ function Explore() {
         <div>
             <Hero page='explore' title='Explore' text='- Grab Your Gear And Explore The Sites -' />
             <div className='rental-tiles-container'>
+                <h2 className='rental-tiles__title'>Rentals</h2>
                 <Tile rental='kayaks' />
                 <Tile rental='sup' />
                 <Tile rental='canoes' />
                 <Tile rental='bikes' />
             </div>
-            <div className='tour-cards-container'>
+            <div id="tours" className='tour-cards-container'>
+                <h2 className='tour-cards__title'>Tours</h2>
                 {tourCards}
             </div>
             <ExploreMsg />

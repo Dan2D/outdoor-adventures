@@ -6,6 +6,8 @@
         justify-content: flex-start;
         height: 40vh;
         align-items: center;
+        border-image: url("../../images/wave-border.svg") 25 space;
+        z-index: -1;
         &--home {
             padding-top: 12vh;
             background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/hero-home-bg.jpg");
@@ -40,6 +42,13 @@
         &:hover {
             color: rgb(236, 255, 62);
         }
+    }
+    &-border--bottom {
+        position: absolute;
+        bottom: 0;
+        width: 120%;
+        transform: scaleY(1.5);
+        fill: red;
     }
 }
 

@@ -17,7 +17,7 @@ function Card(props) {
                     <h4 className='card__title'>{props.cardTitle}</h4>
                 </div>
                 {props.type !== REVIEW ? (
-                <Link className={`card__btn card__btn--${props.type} btn`} to="/">
+                <Link className={`card__btn card__btn--${props.type} btn`} to={`/explore?category=tours`}>
                     Learn More
                 </Link>) : (
                 <>
