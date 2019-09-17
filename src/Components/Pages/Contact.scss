@@ -4,6 +4,7 @@
         margin-bottom: 25px;
     }
     &__send-btn {
+        margin: 3px 15px;
         background: var(--color-blue);
         color: var(--hero-contact-bg);
         &:hover {
@@ -12,8 +13,10 @@
     }
 }
 
-button.btn {
-    padding: 3px 0 3px 5px;
+button.faq-btn {
+    height: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .faqs{
@@ -44,9 +47,8 @@ button.btn {
         padding-left: 10px;
     }
     &-svg {
-        height: 15px;
         width: 15px;
-        margin: 3px 0 3px 3px 3px;
+        margin: 5px;
         transform: rotate(90deg);
         transition: all ease 700ms;
         &.up {

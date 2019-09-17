@@ -1,4 +1,5 @@
 import React from 'react';
+import SVG from 'react-inlinesvg';
 import {Link} from 'react-router-dom';
 import Slider from 'react-slick';
 
@@ -11,6 +12,7 @@ function Blurb() {
       };
     return (
         <div className='blurb-container'>
+            <SVG className='blurb__logo-bg' src={require("../../images/site-logo.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="black"')} />
             <Slider {...settings}>
                 <div>
                     <img src={require("../../images/hero-bg.jpg")} alt="slide" />
@@ -33,7 +35,7 @@ function Blurb() {
              and a fantastically amazing staff at your service. Just checkout our ratings and reviews
              online!
             </p>
-            <Link className='blurb__btn btn' to="/tours">Check it Out!</Link>
+            <Link className='blurb__btn btn' to="/explore">Check it Out!</Link>
         </div>
     )
 }

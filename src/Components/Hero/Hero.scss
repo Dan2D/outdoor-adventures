@@ -59,7 +59,6 @@
         bottom: 0;
         width: 120%;
         transform: scaleY(1.5);
-        fill: red;
     }
 }
 
@@ -81,6 +80,10 @@
     .hero {
         &-container {
             background: skyblue;
+            margin-bottom: 50px;
+            &--contact {
+                background: var(--hero-contact-bg);
+            }
         }
         &__img {
             top: 7px;
@@ -91,9 +94,24 @@
             max-height: 545px;
             margin: 33px auto;
             border: 3px solid white;
+            &--contact {
+                border: none;
+            }
+        }
+        &__page-title {
+            margin: 10px 0 0 10px;
         }
         &__c2a-txt {
-            margin: 20% auto;
+            width: 100%;
+            margin: 10% auto;
+        }
+        &-svg {
+            max-height: 215px;
+            z-index: 0;
+        }
+        &-border--bottom {
+            width: 101%;
+            transform: scaleY(2);
         }
     }
 }

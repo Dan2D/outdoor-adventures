@@ -40,7 +40,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className='row justify-content-center'>
+                <div className='footer__bottom row justify-content-center'>
                     <div className='footer__social-lnks'>
                         <a href="https://www.instagram.com/" rel='noopenner noreferrer' target='_blank'>
                             <SVG src={require("../../images/icons/instagram-icon.svg")} />

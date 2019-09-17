@@ -6,11 +6,44 @@ import "./About.scss";
 function About() {
     window.scrollTo(0,0);
     const settings = {
-        arrows: false,
+        arrows: true,
         infinite: true,
+        lazy: 'on-demand',
         speed: 500,
-        slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 9999,
+                settings: {
+                    slidesToShow: 4
+                }
+            },
+            {
+                breakpoint: 1021,
+                settings: {
+                    slidesToShow: 4
+                }
+            },
+                {
+                    breakpoint: 853,
+                    settings: {
+                        slidesToShow: 3
+                    }
+            },
+            {
+                breakpoint: 630,
+                settings: {
+                    slidesToShow: 2
+                }
+        },
+        {
+            breakpoint: 410,
+            settings: {
+                slidesToShow: 2
+            }
+    }
+        ]
       };
     return (
         <div className='about-container  '>
@@ -33,19 +66,19 @@ function About() {
             <div className='about-slider-container'>
                 <Slider {...settings} >
                     <div>
-                        <img tabIndex="0" className='slide-img' src={require("../../images/hero-bg.jpg")} alt="slide" />
+                        <img className='about-slider__img' tabIndex="0" className='slide-img' src={require("../../images/tour1-bg.jpg")} alt="slide" />
                     </div>
                     <div>
-                        <img tabIndex="0" className='slide-img' src={require("../../images/slide-2.jpg")} alt="slide" />
+                        <img className='about-slider__img' tabIndex="0" className='slide-img' src={require("../../images/tour2-bg.jpg")} alt="slide" />
                     </div>
                     <div>
-                        <img tabIndex="0" className='slide-img' src={require("../../images/slide-3.jpg")} alt="slide" />
+                        <img className='about-slider__img' tabIndex="0" className='slide-img' src={require("../../images/tour3-bg.jpg")} alt="slide" />
                     </div>
                     <div>
-                        <img tabIndex="0" className='slide-img' src={require("../../images/tour1-bg.jpg")} alt="slide" />
+                        <img className='about-slider__img' tabIndex="0" className='slide-img' src={require("../../images/tour4-bg.jpg")} alt="slide" />
                     </div>
                     <div>
-                        <img tabIndex="0" className='slide-img' src={require("../../images/tour2-bg.jpg")} alt="slide" />
+                        <img className='about-slider__img' tabIndex="0" className='slide-img' src={require("../../images/tour5-bg.jpg")} alt="slide" />
                     </div>
                 </Slider>
             </div>

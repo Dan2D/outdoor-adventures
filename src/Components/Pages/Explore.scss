@@ -43,6 +43,11 @@
             z-index: 1;
         }
     }
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
     &__svg {
         width: 120px;
         margin: 0 20px;
@@ -66,6 +71,67 @@
     }
 }
 
-.flex-container {
-    margin: 20px 0;
+@media only screen and (min-width: 767px) {
+    .tour-cards {
+        &-container {
+            position: relative;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            padding-top: 20px;
+        }
+        &__title {
+            position: absolute;
+            top: 5px;
+            left: 10px;
+        }
+    }
+    .explore-msg {
+        &__row {
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+            &--reverse {
+                flex-direction: row;
+                justify-content: flex-start;
+            }
+        }
+        &__svg {
+            width: 50px;
+        }
+        &__sun-container {
+            bottom: -350px;
+        }
+        &__sun {
+            height:400px;
+            width: 400px;
+        }
+    }
 }
+
+@media only screen and (min-width: 1281px) {
+    .rental-tiles {
+        &-container {
+            position: relative;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            padding-top: 60px;
+        }
+        &__title {
+            position: absolute;
+            top: 60px;
+            left: 10px;
+        }
+    }
+    &.tile-container {
+        display: flex;
+        flex-basis: 47%;
+        margin: 10px;
+        background: rgba(0,0,0,0.4);
+    }
+    .explore-msg__row p {
+        font-size: 1.25em;
+        width: 550px;
+    }
+  }
