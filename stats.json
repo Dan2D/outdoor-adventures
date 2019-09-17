@@ -4,9 +4,9 @@
   "warnings": [
   ],
   "version": "4.39.3",
-  "hash": "89daa928fb2f176fb61d",
-  "time": 6218,
-  "builtAt": 1568763257707,
+  "hash": "bb422b9a8e3efdfbf05e",
+  "time": 5743,
+  "builtAt": 1568764152514,
   "publicPath": "",
   "outputPath": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\dist",
   "assetsByChunkName": {
@@ -25,15 +25,15 @@
     ],
     "explore": [
       "explore.63800d3779b4ac9efee3.css",
-      "explore.8cd999affc983fde2681.bundle.js"
+      "explore.4301e23de79c06eb26cf.bundle.js"
     ],
     "home": [
       "home.55beee73ee6c978f915c.css",
-      "home.120d93d2b8fa8c9deb33.bundle.js"
+      "home.4961cee40df1223e5ebc.bundle.js"
     ],
     "main": [
       "main.6269fac87954ff108a32.css",
-      "main.460d4918e64ba3cb7f0e.bundle.js"
+      "main.1a28c2259177f17d9c59.bundle.js"
     ]
   },
   "assets": [
@@ -122,6 +122,26 @@
       "emitted": true
     },
     {
+      "name": "explore.4301e23de79c06eb26cf.bundle.js",
+      "size": 15812,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "explore"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "explore.4301e23de79c06eb26cf.bundle.js.br",
+      "size": 4752,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
       "name": "explore.63800d3779b4ac9efee3.css",
       "size": 1844,
       "chunks": [
@@ -133,27 +153,7 @@
       "emitted": true
     },
     {
-      "name": "explore.8cd999affc983fde2681.bundle.js",
-      "size": 15812,
-      "chunks": [
-        4
-      ],
-      "chunkNames": [
-        "explore"
-      ],
-      "emitted": true
-    },
-    {
-      "name": "explore.8cd999affc983fde2681.bundle.js.br",
-      "size": 4764,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "home.120d93d2b8fa8c9deb33.bundle.js",
+      "name": "home.4961cee40df1223e5ebc.bundle.js",
       "size": 8528,
       "chunks": [
         5
@@ -175,8 +175,8 @@
       "emitted": true
     },
     {
-      "name": "images/hero-bg.9b641b0303d9e71bc4144ef67a631f48.jpg",
-      "size": 121688,
+      "name": "images/hero-bg.2eae38d26ef3593832d69be13de6dbd2.jpg",
+      "size": 20441,
       "chunks": [
       ],
       "chunkNames": [
@@ -265,8 +265,8 @@
       "emitted": true
     },
     {
-      "name": "images/slide-2.f5abdfe29e658421490a4a2f55242d56.jpg",
-      "size": 190264,
+      "name": "images/slide-2.8ec1f6f17442160e0176b2823531ef5e.jpg",
+      "size": 20262,
       "chunks": [
       ],
       "chunkNames": [
@@ -274,8 +274,8 @@
       "emitted": true
     },
     {
-      "name": "images/slide-3.67a5d4698331f4af3bab51fc57d82602.jpg",
-      "size": 191751,
+      "name": "images/slide-3.763dbf45f5214b9effb0bdbb19e594fd.jpg",
+      "size": 16881,
       "chunks": [
       ],
       "chunkNames": [
@@ -338,7 +338,7 @@
     },
     {
       "name": "index.html",
-      "size": 1685,
+      "size": 2198,
       "chunks": [
       ],
       "chunkNames": [
@@ -346,8 +346,8 @@
       "emitted": true
     },
     {
-      "name": "main.460d4918e64ba3cb7f0e.bundle.js",
-      "size": 208031,
+      "name": "main.1a28c2259177f17d9c59.bundle.js",
+      "size": 208157,
       "chunks": [
         6
       ],
@@ -357,8 +357,8 @@
       "emitted": true
     },
     {
-      "name": "main.460d4918e64ba3cb7f0e.bundle.js.br",
-      "size": 56157,
+      "name": "main.1a28c2259177f17d9c59.bundle.js.br",
+      "size": 56126,
       "chunks": [
       ],
       "chunkNames": [
@@ -405,7 +405,7 @@
       ],
       "assets": [
         "main.6269fac87954ff108a32.css",
-        "main.460d4918e64ba3cb7f0e.bundle.js"
+        "main.1a28c2259177f17d9c59.bundle.js"
       ],
       "children": {
       },
@@ -420,7 +420,7 @@
       ],
       "assets": [
         "main.6269fac87954ff108a32.css",
-        "main.460d4918e64ba3cb7f0e.bundle.js"
+        "main.1a28c2259177f17d9c59.bundle.js"
       ],
       "children": {
       },
@@ -438,7 +438,7 @@
         "about~contact~explore~home.a422c889c79b279c4159.css",
         "about~contact~explore~home.f857967fef90dbe6cbff.bundle.js",
         "home.55beee73ee6c978f915c.css",
-        "home.120d93d2b8fa8c9deb33.bundle.js"
+        "home.4961cee40df1223e5ebc.bundle.js"
       ],
       "children": {
       },
@@ -454,7 +454,7 @@
         "about~contact~explore~home.a422c889c79b279c4159.css",
         "about~contact~explore~home.f857967fef90dbe6cbff.bundle.js",
         "explore.63800d3779b4ac9efee3.css",
-        "explore.8cd999affc983fde2681.bundle.js"
+        "explore.4301e23de79c06eb26cf.bundle.js"
       ],
       "children": {
       },
@@ -541,9 +541,9 @@
           "chunks": [
             0
           ],
-          "issuer": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "issuerId": 111,
-          "issuerName": "./src/Components/Pages/About.js",
+          "issuer": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+          "issuerId": null,
+          "issuerName": "./src/Components/Pages/Contact.js",
           "issuerPath": [
             {
               "id": 23,
@@ -556,9 +556,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 111,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+              "name": "./src/Components/Pages/Contact.js"
             }
           ],
           "failed": false,
@@ -679,9 +679,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 111,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+              "name": "./src/Components/Pages/Contact.js"
             },
             {
               "id": 56,
@@ -750,9 +750,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 111,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+              "name": "./src/Components/Pages/Contact.js"
             },
             {
               "id": 56,
@@ -813,9 +813,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 111,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+              "name": "./src/Components/Pages/Contact.js"
             },
             {
               "id": 56,
@@ -874,9 +874,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 111,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+              "name": "./src/Components/Pages/Contact.js"
             },
             {
               "id": 56,
@@ -936,9 +936,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 111,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+              "name": "./src/Components/Pages/Contact.js"
             },
             {
               "id": 56,
@@ -1003,9 +1003,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 111,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+              "name": "./src/Components/Pages/Contact.js"
             },
             {
               "id": 56,
@@ -1070,9 +1070,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 111,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+              "name": "./src/Components/Pages/Contact.js"
             },
             {
               "id": 56,
@@ -1137,9 +1137,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 111,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+              "name": "./src/Components/Pages/Contact.js"
             },
             {
               "id": 56,
@@ -1198,9 +1198,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 111,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+              "name": "./src/Components/Pages/Contact.js"
             },
             {
               "id": 56,
@@ -3896,9 +3896,9 @@
       ],
       "files": [
         "explore.63800d3779b4ac9efee3.css",
-        "explore.8cd999affc983fde2681.bundle.js"
+        "explore.4301e23de79c06eb26cf.bundle.js"
       ],
-      "hash": "4cd4538690766f8f6e36",
+      "hash": "e5e6c8290b56772b4921",
       "siblings": [
         0
       ],
@@ -4564,7 +4564,7 @@
           "errors": 0,
           "warnings": 0,
           "assets": [
-            "images/hero-bg.9b641b0303d9e71bc4144ef67a631f48.jpg"
+            "images/hero-bg.2eae38d26ef3593832d69be13de6dbd2.jpg"
           ],
           "reasons": [
             {
@@ -6410,9 +6410,9 @@
       ],
       "files": [
         "home.55beee73ee6c978f915c.css",
-        "home.120d93d2b8fa8c9deb33.bundle.js"
+        "home.4961cee40df1223e5ebc.bundle.js"
       ],
-      "hash": "830f7c89ceafba97fa21",
+      "hash": "93072c5b04cefb6de646",
       "siblings": [
         0,
         1
@@ -7079,7 +7079,7 @@
           "errors": 0,
           "warnings": 0,
           "assets": [
-            "images/hero-bg.9b641b0303d9e71bc4144ef67a631f48.jpg"
+            "images/hero-bg.2eae38d26ef3593832d69be13de6dbd2.jpg"
           ],
           "reasons": [
             {
@@ -7656,7 +7656,7 @@
           "errors": 0,
           "warnings": 0,
           "assets": [
-            "images/slide-2.f5abdfe29e658421490a4a2f55242d56.jpg"
+            "images/slide-2.8ec1f6f17442160e0176b2823531ef5e.jpg"
           ],
           "reasons": [
             {
@@ -7719,7 +7719,7 @@
           "errors": 0,
           "warnings": 0,
           "assets": [
-            "images/slide-3.67a5d4698331f4af3bab51fc57d82602.jpg"
+            "images/slide-3.763dbf45f5214b9effb0bdbb19e594fd.jpg"
           ],
           "reasons": [
             {
@@ -8313,15 +8313,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 301997,
+      "size": 302153,
       "names": [
         "main"
       ],
       "files": [
         "main.6269fac87954ff108a32.css",
-        "main.460d4918e64ba3cb7f0e.bundle.js"
+        "main.1a28c2259177f17d9c59.bundle.js"
       ],
-      "hash": "bdec0d1522e140a176e6",
+      "hash": "02f12c388fa1de75a2d1",
       "siblings": [
       ],
       "parents": [
@@ -8734,7 +8734,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-46"
+              "loc": "1:0-26"
             },
             {
               "moduleId": 20,
@@ -8743,7 +8743,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-26"
+              "loc": "1:0-46"
             },
             {
               "moduleId": 20,
@@ -8896,7 +8896,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "25:5-10"
+              "loc": "25:14-19"
             },
             {
               "moduleId": 20,
@@ -8905,7 +8905,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "25:14-19"
+              "loc": "26:5-10"
             },
             {
               "moduleId": 20,
@@ -8995,7 +8995,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "31:7-12"
+              "loc": "31:26-31"
             },
             {
               "moduleId": 20,
@@ -9004,7 +9004,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "31:26-31"
+              "loc": "32:7-12"
             },
             {
               "moduleId": 20,
@@ -9040,15 +9040,6 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "36:5-10"
-            },
-            {
-              "moduleId": 20,
-              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\App\\App.js 78858545295bbb582ddd8ab669a0d195",
-              "module": "./src/Components/App/App.js + 2 modules",
-              "moduleName": "./src/Components/App/App.js + 2 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
               "loc": "37:5-10"
             },
             {
@@ -9059,6 +9050,15 @@
               "type": "harmony import specifier",
               "userRequest": "react",
               "loc": "37:6-11"
+            },
+            {
+              "moduleId": 20,
+              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\App\\App.js 78858545295bbb582ddd8ab669a0d195",
+              "module": "./src/Components/App/App.js + 2 modules",
+              "moduleName": "./src/Components/App/App.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "38:5-10"
             },
             {
               "moduleId": 20,
@@ -9112,15 +9112,6 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "42:7-12"
-            },
-            {
-              "moduleId": 20,
-              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\App\\App.js 78858545295bbb582ddd8ab669a0d195",
-              "module": "./src/Components/App/App.js + 2 modules",
-              "moduleName": "./src/Components/App/App.js + 2 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
               "loc": "43:6-11"
             },
             {
@@ -9157,7 +9148,16 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "44:5-10"
+              "loc": "44:7-12"
+            },
+            {
+              "moduleId": 20,
+              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\App\\App.js 78858545295bbb582ddd8ab669a0d195",
+              "module": "./src/Components/App/App.js + 2 modules",
+              "moduleName": "./src/Components/App/App.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "46:5-10"
             },
             {
               "moduleId": 20,
@@ -9229,7 +9229,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "54:6-11"
+              "loc": "56:6-11"
             },
             {
               "moduleId": 20,
@@ -9238,7 +9238,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "57:5-10"
+              "loc": "58:5-10"
             },
             {
               "moduleId": 20,
@@ -9247,7 +9247,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "59:7-12"
+              "loc": "60:7-12"
             },
             {
               "moduleId": 20,
@@ -9256,7 +9256,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "60:14-19"
+              "loc": "62:14-19"
             },
             {
               "moduleId": 20,
@@ -9265,7 +9265,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "63:5-10"
+              "loc": "65:5-10"
             },
             {
               "moduleId": 20,
@@ -9274,7 +9274,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "65:7-12"
+              "loc": "67:7-12"
             },
             {
               "moduleId": 20,
@@ -9283,7 +9283,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "66:17-22"
+              "loc": "68:17-22"
             },
             {
               "moduleId": 20,
@@ -9292,7 +9292,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "69:5-10"
+              "loc": "72:5-10"
             },
             {
               "moduleId": 20,
@@ -9301,7 +9301,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "71:8-13"
+              "loc": "74:8-13"
             },
             {
               "moduleId": 20,
@@ -9310,7 +9310,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "72:15-20"
+              "loc": "74:15-20"
             },
             {
               "moduleId": 23,
@@ -11578,16 +11578,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-inlinesvg",
-              "loc": "25:25-28"
-            },
-            {
-              "moduleId": 20,
-              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\App\\App.js 78858545295bbb582ddd8ab669a0d195",
-              "module": "./src/Components/App/App.js + 2 modules",
-              "moduleName": "./src/Components/App/App.js + 2 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react-inlinesvg",
-              "loc": "36:25-28"
+              "loc": "26:25-28"
             },
             {
               "moduleId": 20,
@@ -11597,6 +11588,15 @@
               "type": "harmony import specifier",
               "userRequest": "react-inlinesvg",
               "loc": "37:25-28"
+            },
+            {
+              "moduleId": 20,
+              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\App\\App.js 78858545295bbb582ddd8ab669a0d195",
+              "module": "./src/Components/App/App.js + 2 modules",
+              "moduleName": "./src/Components/App/App.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react-inlinesvg",
+              "loc": "38:25-28"
             },
             {
               "moduleId": 20,
@@ -11632,7 +11632,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-inlinesvg",
-              "loc": "57:25-28"
+              "loc": "58:25-28"
             },
             {
               "moduleId": 20,
@@ -11641,7 +11641,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-inlinesvg",
-              "loc": "63:25-28"
+              "loc": "65:25-28"
             },
             {
               "moduleId": 20,
@@ -11650,7 +11650,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-inlinesvg",
-              "loc": "69:25-28"
+              "loc": "72:25-28"
             },
             {
               "moduleId": 49,
@@ -11956,7 +11956,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-router-dom",
-              "loc": "54:26-30"
+              "loc": "56:26-30"
             },
             {
               "moduleId": 20,
@@ -11965,7 +11965,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-router-dom",
-              "loc": "60:34-38"
+              "loc": "62:34-38"
             },
             {
               "moduleId": 20,
@@ -11974,7 +11974,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-router-dom",
-              "loc": "66:37-41"
+              "loc": "68:37-41"
             },
             {
               "moduleId": 20,
@@ -11983,7 +11983,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-router-dom",
-              "loc": "72:35-39"
+              "loc": "74:35-39"
             },
             {
               "moduleId": 49,
@@ -13744,7 +13744,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "cjs require",
               "userRequest": "../../images/site-logo.svg",
-              "loc": "27:9-46"
+              "loc": "28:9-46"
             },
             {
               "moduleId": 49,
@@ -14039,7 +14039,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-wavify",
-              "loc": "44:25-29"
+              "loc": "46:25-29"
             }
           ],
           "usedExports": [
@@ -14208,7 +14208,7 @@
           "name": "./src/Components/App/App.js + 2 modules",
           "index": 9,
           "index2": 53,
-          "size": 7199,
+          "size": 7355,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -14324,7 +14324,7 @@
               "name": "./src/Components/Nav/Nav.js",
               "index": 10,
               "index2": 39,
-              "size": 2928,
+              "size": 2988,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -14387,7 +14387,7 @@
               "name": "./src/Components/Footer/Footer.js",
               "index": 42,
               "index2": 50,
-              "size": 2985,
+              "size": 3081,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -15540,7 +15540,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "cjs require",
               "userRequest": "../../images/icons/hamburger-icon.svg",
-              "loc": "38:9-57"
+              "loc": "40:9-57"
             }
           ],
           "usedExports": true,
@@ -15882,7 +15882,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "cjs require",
               "userRequest": "../../images/icons/instagram-icon.svg",
-              "loc": "58:9-57"
+              "loc": "59:9-57"
             }
           ],
           "usedExports": true,
@@ -15939,7 +15939,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "cjs require",
               "userRequest": "../../images/icons/twitter-icon.svg",
-              "loc": "64:9-55"
+              "loc": "66:9-55"
             }
           ],
           "usedExports": true,
@@ -15996,7 +15996,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "cjs require",
               "userRequest": "../../images/icons/facebook-icon.svg",
-              "loc": "70:9-56"
+              "loc": "73:9-56"
             }
           ],
           "usedExports": true,
@@ -16735,7 +16735,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-26"
+          "loc": "1:0-46"
         },
         {
           "moduleId": 20,
@@ -16744,7 +16744,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-46"
+          "loc": "1:0-26"
         },
         {
           "moduleId": 20,
@@ -16897,7 +16897,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "25:5-10"
+          "loc": "25:14-19"
         },
         {
           "moduleId": 20,
@@ -16906,7 +16906,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "25:14-19"
+          "loc": "26:5-10"
         },
         {
           "moduleId": 20,
@@ -16996,7 +16996,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "31:7-12"
+          "loc": "31:26-31"
         },
         {
           "moduleId": 20,
@@ -17005,7 +17005,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "31:26-31"
+          "loc": "32:7-12"
         },
         {
           "moduleId": 20,
@@ -17041,15 +17041,6 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "36:5-10"
-        },
-        {
-          "moduleId": 20,
-          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\App\\App.js 78858545295bbb582ddd8ab669a0d195",
-          "module": "./src/Components/App/App.js + 2 modules",
-          "moduleName": "./src/Components/App/App.js + 2 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
           "loc": "37:5-10"
         },
         {
@@ -17060,6 +17051,15 @@
           "type": "harmony import specifier",
           "userRequest": "react",
           "loc": "37:6-11"
+        },
+        {
+          "moduleId": 20,
+          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\App\\App.js 78858545295bbb582ddd8ab669a0d195",
+          "module": "./src/Components/App/App.js + 2 modules",
+          "moduleName": "./src/Components/App/App.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "38:5-10"
         },
         {
           "moduleId": 20,
@@ -17113,15 +17113,6 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "42:7-12"
-        },
-        {
-          "moduleId": 20,
-          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\App\\App.js 78858545295bbb582ddd8ab669a0d195",
-          "module": "./src/Components/App/App.js + 2 modules",
-          "moduleName": "./src/Components/App/App.js + 2 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
           "loc": "43:6-11"
         },
         {
@@ -17158,7 +17149,16 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "44:5-10"
+          "loc": "44:7-12"
+        },
+        {
+          "moduleId": 20,
+          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\App\\App.js 78858545295bbb582ddd8ab669a0d195",
+          "module": "./src/Components/App/App.js + 2 modules",
+          "moduleName": "./src/Components/App/App.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "46:5-10"
         },
         {
           "moduleId": 20,
@@ -17230,7 +17230,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "54:6-11"
+          "loc": "56:6-11"
         },
         {
           "moduleId": 20,
@@ -17239,7 +17239,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "57:5-10"
+          "loc": "58:5-10"
         },
         {
           "moduleId": 20,
@@ -17248,7 +17248,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "59:7-12"
+          "loc": "60:7-12"
         },
         {
           "moduleId": 20,
@@ -17257,7 +17257,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "60:14-19"
+          "loc": "62:14-19"
         },
         {
           "moduleId": 20,
@@ -17266,7 +17266,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "63:5-10"
+          "loc": "65:5-10"
         },
         {
           "moduleId": 20,
@@ -17275,7 +17275,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "65:7-12"
+          "loc": "67:7-12"
         },
         {
           "moduleId": 20,
@@ -17284,7 +17284,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "66:17-22"
+          "loc": "68:17-22"
         },
         {
           "moduleId": 20,
@@ -17293,7 +17293,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "69:5-10"
+          "loc": "72:5-10"
         },
         {
           "moduleId": 20,
@@ -17302,7 +17302,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "71:8-13"
+          "loc": "74:8-13"
         },
         {
           "moduleId": 20,
@@ -17311,7 +17311,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "72:15-20"
+          "loc": "74:15-20"
         },
         {
           "moduleId": 23,
@@ -19579,16 +19579,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-inlinesvg",
-          "loc": "25:25-28"
-        },
-        {
-          "moduleId": 20,
-          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\App\\App.js 78858545295bbb582ddd8ab669a0d195",
-          "module": "./src/Components/App/App.js + 2 modules",
-          "moduleName": "./src/Components/App/App.js + 2 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react-inlinesvg",
-          "loc": "36:25-28"
+          "loc": "26:25-28"
         },
         {
           "moduleId": 20,
@@ -19598,6 +19589,15 @@
           "type": "harmony import specifier",
           "userRequest": "react-inlinesvg",
           "loc": "37:25-28"
+        },
+        {
+          "moduleId": 20,
+          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\App\\App.js 78858545295bbb582ddd8ab669a0d195",
+          "module": "./src/Components/App/App.js + 2 modules",
+          "moduleName": "./src/Components/App/App.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react-inlinesvg",
+          "loc": "38:25-28"
         },
         {
           "moduleId": 20,
@@ -19633,7 +19633,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-inlinesvg",
-          "loc": "57:25-28"
+          "loc": "58:25-28"
         },
         {
           "moduleId": 20,
@@ -19642,7 +19642,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-inlinesvg",
-          "loc": "63:25-28"
+          "loc": "65:25-28"
         },
         {
           "moduleId": 20,
@@ -19651,7 +19651,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-inlinesvg",
-          "loc": "69:25-28"
+          "loc": "72:25-28"
         },
         {
           "moduleId": 49,
@@ -19957,7 +19957,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-router-dom",
-          "loc": "54:26-30"
+          "loc": "56:26-30"
         },
         {
           "moduleId": 20,
@@ -19966,7 +19966,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-router-dom",
-          "loc": "60:34-38"
+          "loc": "62:34-38"
         },
         {
           "moduleId": 20,
@@ -19975,7 +19975,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-router-dom",
-          "loc": "66:37-41"
+          "loc": "68:37-41"
         },
         {
           "moduleId": 20,
@@ -19984,7 +19984,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-router-dom",
-          "loc": "72:35-39"
+          "loc": "74:35-39"
         },
         {
           "moduleId": 49,
@@ -21830,7 +21830,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "cjs require",
           "userRequest": "../../images/site-logo.svg",
-          "loc": "27:9-46"
+          "loc": "28:9-46"
         },
         {
           "moduleId": 49,
@@ -22125,7 +22125,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-wavify",
-          "loc": "44:25-29"
+          "loc": "46:25-29"
         }
       ],
       "usedExports": [
@@ -22294,7 +22294,7 @@
       "name": "./src/Components/App/App.js + 2 modules",
       "index": 9,
       "index2": 53,
-      "size": 7199,
+      "size": 7355,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -22410,7 +22410,7 @@
           "name": "./src/Components/Nav/Nav.js",
           "index": 10,
           "index2": 39,
-          "size": 2928,
+          "size": 2988,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -22473,7 +22473,7 @@
           "name": "./src/Components/Footer/Footer.js",
           "index": 42,
           "index2": 50,
-          "size": 2985,
+          "size": 3081,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -23626,7 +23626,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "cjs require",
           "userRequest": "../../images/icons/hamburger-icon.svg",
-          "loc": "38:9-57"
+          "loc": "40:9-57"
         }
       ],
       "usedExports": true,
@@ -23968,7 +23968,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "cjs require",
           "userRequest": "../../images/icons/instagram-icon.svg",
-          "loc": "58:9-57"
+          "loc": "59:9-57"
         }
       ],
       "usedExports": true,
@@ -24025,7 +24025,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "cjs require",
           "userRequest": "../../images/icons/twitter-icon.svg",
-          "loc": "64:9-55"
+          "loc": "66:9-55"
         }
       ],
       "usedExports": true,
@@ -24082,7 +24082,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "cjs require",
           "userRequest": "../../images/icons/facebook-icon.svg",
-          "loc": "70:9-56"
+          "loc": "73:9-56"
         }
       ],
       "usedExports": true,
@@ -24815,9 +24815,9 @@
       "chunks": [
         0
       ],
-      "issuer": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-      "issuerId": 111,
-      "issuerName": "./src/Components/Pages/About.js",
+      "issuer": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+      "issuerId": null,
+      "issuerName": "./src/Components/Pages/Contact.js",
       "issuerPath": [
         {
           "id": 23,
@@ -24830,9 +24830,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 111,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+          "name": "./src/Components/Pages/Contact.js"
         }
       ],
       "failed": false,
@@ -24968,7 +24968,7 @@
       "errors": 0,
       "warnings": 0,
       "assets": [
-        "images/hero-bg.9b641b0303d9e71bc4144ef67a631f48.jpg"
+        "images/hero-bg.2eae38d26ef3593832d69be13de6dbd2.jpg"
       ],
       "reasons": [
         {
@@ -25855,9 +25855,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 111,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+          "name": "./src/Components/Pages/Contact.js"
         },
         {
           "id": 56,
@@ -26012,9 +26012,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 111,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+          "name": "./src/Components/Pages/Contact.js"
         },
         {
           "id": 56,
@@ -26075,9 +26075,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 111,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+          "name": "./src/Components/Pages/Contact.js"
         },
         {
           "id": 56,
@@ -26136,9 +26136,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 111,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+          "name": "./src/Components/Pages/Contact.js"
         },
         {
           "id": 56,
@@ -26198,9 +26198,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 111,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+          "name": "./src/Components/Pages/Contact.js"
         },
         {
           "id": 56,
@@ -26265,9 +26265,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 111,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+          "name": "./src/Components/Pages/Contact.js"
         },
         {
           "id": 56,
@@ -26332,9 +26332,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 111,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+          "name": "./src/Components/Pages/Contact.js"
         },
         {
           "id": 56,
@@ -26399,9 +26399,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 111,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+          "name": "./src/Components/Pages/Contact.js"
         },
         {
           "id": 56,
@@ -27604,7 +27604,7 @@
       "errors": 0,
       "warnings": 0,
       "assets": [
-        "images/slide-2.f5abdfe29e658421490a4a2f55242d56.jpg"
+        "images/slide-2.8ec1f6f17442160e0176b2823531ef5e.jpg"
       ],
       "reasons": [
         {
@@ -27667,7 +27667,7 @@
       "errors": 0,
       "warnings": 0,
       "assets": [
-        "images/slide-3.67a5d4698331f4af3bab51fc57d82602.jpg"
+        "images/slide-3.763dbf45f5214b9effb0bdbb19e594fd.jpg"
       ],
       "reasons": [
         {
@@ -30355,9 +30355,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 111,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js",
+          "name": "./src/Components/Pages/Contact.js"
         },
         {
           "id": 56,
@@ -30413,7 +30413,7 @@
       "assets": [
         {
           "name": "index.html",
-          "size": 547224,
+          "size": 547757,
           "chunks": [
             0
           ],
@@ -30457,13 +30457,13 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 543274,
+          "size": 543807,
           "names": [
           ],
           "files": [
             "index.html"
           ],
-          "hash": "cdcede17d172d8e4fbf3",
+          "hash": "8806df732c97a9c2d669",
           "siblings": [
           ],
           "parents": [
@@ -30479,7 +30479,7 @@
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
               "index": 0,
               "index2": 3,
-              "size": 1793,
+              "size": 2326,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -30686,7 +30686,7 @@
           "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
           "index": 0,
           "index2": 3,
-          "size": 1793,
+          "size": 2326,
           "cacheable": true,
           "built": true,
           "optional": false,
