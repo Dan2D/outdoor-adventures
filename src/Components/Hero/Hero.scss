@@ -19,6 +19,9 @@
             background: var(--hero-contact-bg);
         }
     }
+    &__clouds-bg {
+        display: none;
+    }
     &__img {
         position: absolute;
         top:0;
@@ -27,7 +30,7 @@
         align-items: center;
         height: 100%;
         width: 100%;
-        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../../images/hero-home-bg.jpg");
+        background: linear-gradient(to bottom, rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url("../../images/hero-home-bg.jpg");
         background-size: cover;
         background-position: (bottom center);
     }
@@ -79,10 +82,32 @@
 @media only screen and (min-width: 767px) {
     .hero {
         &-container {
-            background: skyblue;
+            padding: 0;
             margin-bottom: 50px;
             &--contact {
                 background: var(--hero-contact-bg);
+            }
+        }
+        &__mtn-bg {
+            display: block;
+            position: absolute;
+            right: 0;
+            min-width: 100vw;
+            min-height: 430px;
+        }
+        &__clouds-bg {
+            display: block;
+            position: absolute;
+            top: -5px;
+            width: 200vw;
+            &--A {
+                left: 0;
+                animation: sky-A 90000ms linear infinite;
+            }
+            &--B {
+                left: 200vw;
+                transform: scaleX(-1);
+                animation: sky-B 90000ms linear infinite;
             }
         }
         &__img {
@@ -90,7 +115,7 @@
             left: 0;
             right: 0;
             width: 95%;
-            max-width: 1200px;
+            max-width: 850px;
             max-height: 545px;
             margin: 33px auto;
             border: 3px solid white;
@@ -115,3 +140,48 @@
         }
     }
 }
+
+@keyframes sky-A {
+ 0% {
+     opacity: 1;
+     transform: translateX(0);
+ }
+ 45% {
+     opacity: 1;
+     transform: translateX(-200vw);
+ }
+ 46%{
+     opacity:0;
+ }
+ 54% {
+     transform: translateX(-205vw);
+ }
+ 55%{
+     opacity: 0;
+     transform: translateX(200vw);
+ }
+ 56%{
+     opacity: 1;
+ }
+ 100% {
+     transform: translateX(0);
+ }
+}
+
+@keyframes sky-B {
+    0% {
+        opacity: 1;
+        transform: translateX(0) scaleX(-1);
+    }
+    91% {
+        opacity: 1;
+        transform: translateX(-410vw) scaleX(-1);
+    }
+    92%{
+        opacity:0;
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(0) scaleX(-1);
+    }
+   }

@@ -20,7 +20,12 @@ function Hero(props) {
     }
 
     return (
-        <div className={`hero-container hero-container--${props.page}`}>
+        <div className={`hero-container hero-container--${props.page}`} >
+            {props.page !== 'contact' && <>
+            <SVG className='hero__mtn-bg' src={require("../../images/mtn-bg.svg")} />
+            <SVG className='hero__clouds-bg hero__clouds-bg--A' src={require("../../images/clouds-bg.svg")}/>
+            <SVG className='hero__clouds-bg hero__clouds-bg--B' src={require("../../images/clouds-bg.svg")}/>
+            </>}
             <div className={`hero__img hero__img--${props.page}`} style={{background: props.page !== "home" ? color : null}}>
                 {props.page !== 'home' && <h1 className='hero__page-title' >{props.title}</h1>}
                 <h1 className={`hero__c2a-txt hero__c2a-txt--${props.page}`}>{props.text}</h1>
