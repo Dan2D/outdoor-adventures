@@ -6,7 +6,7 @@
         justify-content: space-between;
         width: 100vw;
         height: 60px;
-        background: rgba(255,255,255,0.4);
+        background: rgba(102, 102, 102, 0.4);
         z-index: 2;
     }
     &__site-logo {
@@ -57,23 +57,44 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: rotate(-90deg) translateY(50vw) scaleX(8);
+    transform: rotate(-90deg) translateY(30vw) scaleX(8);
     height: 100%;
     z-index: 1;
   }
 
 @media screen and (min-width: 481px) {
-    .hamburger-btn {
+    .nav__hamburger-btn {
         display: none;
     }
     .nav-menu {
         flex-direction: row;
+        align-items: center;
+        height: auto;
+        width: 90vw;
+        background: none;
         opacity: 1;
         transform: translateX(0);
         transition: all ease 700ms;
     }
     .wave-bg {
-        display: none;
+        display: none !important;
       }
+}
+
+@media only screen and (min-width: 767px) {
+    .nav {
+        &-container {
+            position: absolute;
+            height: 45px;
+            background:none;
+        }
+        &__site-logo {
+            position: absolute;
+            margin-left: 15px;
+        }
+        &-lnk {
+            color: var(--color-blue);
+        }
+    }
 }
 

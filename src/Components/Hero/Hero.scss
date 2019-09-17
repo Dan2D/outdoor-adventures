@@ -1,27 +1,35 @@
 .hero {
     &-container {
         position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        height: 40vh;
-        align-items: center;
-        border-image: url("../../images/wave-border.svg") 25 space;
-        z-index: -1;
+        height: 75vw;
+        max-height: 430px;
+        z-index: 1;
         &--home {
             padding-top: 12vh;
-            background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/hero-home-bg.jpg");
-            background-size: cover;
         }
         &--explore {
             background: var(--color-orange);
+            border-image: url("../../images/wave-border.svg") 25 space;
         }
         &--about {
             background: #85CCC8;
+            border-image: url("../../images/wave-border.svg") 25 space;
         }
         &--contact {
             background: var(--hero-contact-bg);
         }
+    }
+    &__img {
+        position: absolute;
+        top:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../../images/hero-home-bg.jpg");
+        background-size: cover;
+        background-position: (bottom center);
     }
     &__page-title {
         align-self: flex-start;
@@ -32,6 +40,9 @@
         margin: 15px auto;
         color: white;
         text-align: center;
+        &--home {
+            margin-top: 30%;
+        }
     }
     &__c2a-btn {
         position: absolute;
@@ -57,6 +68,7 @@
     right: -20px;
     bottom: 10px;
     height: 25vw;
+    z-index: 2;
     &--contact {
         right: auto;
         left: 5px;
@@ -65,3 +77,23 @@
     }
 }
 
+@media only screen and (min-width: 767px) {
+    .hero {
+        &-container {
+            background: skyblue;
+        }
+        &__img {
+            top: 7px;
+            left: 0;
+            right: 0;
+            width: 95%;
+            max-width: 1200px;
+            max-height: 545px;
+            margin: 33px auto;
+            border: 3px solid white;
+        }
+        &__c2a-txt {
+            margin: 20% auto;
+        }
+    }
+}

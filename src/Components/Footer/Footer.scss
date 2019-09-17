@@ -55,6 +55,12 @@
     right: 10px;
 }
 
-@media screen and (min-width: 481px) {
-
+@media screen and (min-width: 767px) {
+    .footer__right {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .contact-info {
+        margin-right: 10px;
+    }
 }
