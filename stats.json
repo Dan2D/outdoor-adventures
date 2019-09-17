@@ -4,14 +4,14 @@
   "warnings": [
   ],
   "version": "4.39.3",
-  "hash": "19caa6d5647a979a69c4",
-  "time": 7306,
-  "builtAt": 1568678533724,
+  "hash": "4768b18b1f1f8a41790e",
+  "time": 5956,
+  "builtAt": 1568678706326,
   "publicPath": "",
   "outputPath": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\dist",
   "assetsByChunkName": {
     "about~contact~explore~home": [
-      "about~contact~explore~home.cb77751c9f89cccd7e9b.css",
+      "about~contact~explore~home.f76d4fa7abab09610a0d.css",
       "about~contact~explore~home.d6b52e2ce019e441c5ba.bundle.js"
     ],
     "vendors~about~home": "vendors~about~home.c5e4ecd0f13e769af8ea.bundle.js",
@@ -33,7 +33,7 @@
     ],
     "main": [
       "main.52156264e3607d9f9c7d.css",
-      "main.693f2060dec473c2f96f.bundle.js"
+      "main.97895ca23659488cdfa7.bundle.js"
     ]
   },
   "assets": [
@@ -60,26 +60,6 @@
       "emitted": true
     },
     {
-      "name": "about~contact~explore~home.cb77751c9f89cccd7e9b.css",
-      "size": 18811,
-      "chunks": [
-        0
-      ],
-      "chunkNames": [
-        "about~contact~explore~home"
-      ],
-      "emitted": true
-    },
-    {
-      "name": "about~contact~explore~home.cb77751c9f89cccd7e9b.css.br",
-      "size": 1597,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
       "name": "about~contact~explore~home.d6b52e2ce019e441c5ba.bundle.js",
       "size": 35719,
       "chunks": [
@@ -93,6 +73,26 @@
     {
       "name": "about~contact~explore~home.d6b52e2ce019e441c5ba.bundle.js.br",
       "size": 9029,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "about~contact~explore~home.f76d4fa7abab09610a0d.css",
+      "size": 18811,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "about~contact~explore~home"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "about~contact~explore~home.f76d4fa7abab09610a0d.css.br",
+      "size": 1595,
       "chunks": [
       ],
       "chunkNames": [
@@ -357,7 +357,7 @@
       "emitted": true
     },
     {
-      "name": "main.693f2060dec473c2f96f.bundle.js",
+      "name": "main.97895ca23659488cdfa7.bundle.js",
       "size": 208093,
       "chunks": [
         6
@@ -368,8 +368,8 @@
       "emitted": true
     },
     {
-      "name": "main.693f2060dec473c2f96f.bundle.js.br",
-      "size": 55903,
+      "name": "main.97895ca23659488cdfa7.bundle.js.br",
+      "size": 55982,
       "chunks": [
       ],
       "chunkNames": [
@@ -405,7 +405,7 @@
       ],
       "assets": [
         "main.52156264e3607d9f9c7d.css",
-        "main.693f2060dec473c2f96f.bundle.js"
+        "main.97895ca23659488cdfa7.bundle.js"
       ],
       "children": {
       },
@@ -420,7 +420,7 @@
       ],
       "assets": [
         "main.52156264e3607d9f9c7d.css",
-        "main.693f2060dec473c2f96f.bundle.js"
+        "main.97895ca23659488cdfa7.bundle.js"
       ],
       "children": {
       },
@@ -435,7 +435,7 @@
       ],
       "assets": [
         "vendors~about~home.c5e4ecd0f13e769af8ea.bundle.js",
-        "about~contact~explore~home.cb77751c9f89cccd7e9b.css",
+        "about~contact~explore~home.f76d4fa7abab09610a0d.css",
         "about~contact~explore~home.d6b52e2ce019e441c5ba.bundle.js",
         "home.582ac5e9b7c535c3cb2f.css",
         "home.730242db2e9b34d06a75.bundle.js"
@@ -451,7 +451,7 @@
         4
       ],
       "assets": [
-        "about~contact~explore~home.cb77751c9f89cccd7e9b.css",
+        "about~contact~explore~home.f76d4fa7abab09610a0d.css",
         "about~contact~explore~home.d6b52e2ce019e441c5ba.bundle.js",
         "explore.b122f8d3ce7358e69a31.css",
         "explore.fdce4443b07b7323e366.bundle.js"
@@ -469,7 +469,7 @@
       ],
       "assets": [
         "vendors~about~home.c5e4ecd0f13e769af8ea.bundle.js",
-        "about~contact~explore~home.cb77751c9f89cccd7e9b.css",
+        "about~contact~explore~home.f76d4fa7abab09610a0d.css",
         "about~contact~explore~home.d6b52e2ce019e441c5ba.bundle.js",
         "about.9ac2e18ce9e8b5b72875.css",
         "about.14920a3c3e55e55de758.bundle.js"
@@ -485,7 +485,7 @@
         3
       ],
       "assets": [
-        "about~contact~explore~home.cb77751c9f89cccd7e9b.css",
+        "about~contact~explore~home.f76d4fa7abab09610a0d.css",
         "about~contact~explore~home.d6b52e2ce019e441c5ba.bundle.js",
         "contact.c1185707e87dcf2ee316.css",
         "contact.13354b8f38fe1ff544a6.bundle.js"
@@ -508,10 +508,10 @@
         "about~contact~explore~home"
       ],
       "files": [
-        "about~contact~explore~home.cb77751c9f89cccd7e9b.css",
+        "about~contact~explore~home.f76d4fa7abab09610a0d.css",
         "about~contact~explore~home.d6b52e2ce019e441c5ba.bundle.js"
       ],
-      "hash": "d97e39ead6fc685530a7",
+      "hash": "67865d54cab68f80497f",
       "siblings": [
         1,
         2,
@@ -8158,9 +8158,9 @@
       ],
       "files": [
         "main.52156264e3607d9f9c7d.css",
-        "main.693f2060dec473c2f96f.bundle.js"
+        "main.97895ca23659488cdfa7.bundle.js"
       ],
-      "hash": "6e1829fe157235cf21a6",
+      "hash": "13244b3967a241bb8809",
       "siblings": [
       ],
       "parents": [
@@ -30952,7 +30952,7 @@
           "files": [
             "*"
           ],
-          "hash": "ce7f987d71a17a7af41a",
+          "hash": "f498f6789f49311af785",
           "siblings": [
           ],
           "parents": [
