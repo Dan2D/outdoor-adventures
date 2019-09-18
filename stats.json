@@ -3,12 +3,12 @@
   ],
   "warnings": [
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  vendors~contact.7efce897debc49317cb9.bundle.js (256 KiB)",
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (365 KiB)\n      main.c04eaa0b48f2163c407d.css\n      main.749dafa87acd48c343d6.bundle.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (365 KiB)\n      main.066a2d8b7aa396b17c32.css\n      main.749dafa87acd48c343d6.bundle.js\n"
   ],
   "version": "4.39.3",
-  "hash": "0e1e658b8fc271035e2e",
-  "time": 8383,
-  "builtAt": 1568817233018,
+  "hash": "ed92c0b3a6a3d78c8fda",
+  "time": 5506,
+  "builtAt": 1568817436243,
   "publicPath": "",
   "outputPath": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\dist",
   "assetsByChunkName": {
@@ -34,7 +34,7 @@
       "home.adc5b6643d065f4f8f5a.bundle.js"
     ],
     "main": [
-      "main.c04eaa0b48f2163c407d.css",
+      "main.066a2d8b7aa396b17c32.css",
       "main.749dafa87acd48c343d6.bundle.js"
     ],
     "vendors~contact": "vendors~contact.7efce897debc49317cb9.bundle.js"
@@ -394,6 +394,26 @@
       "emitted": true
     },
     {
+      "name": "main.066a2d8b7aa396b17c32.css",
+      "size": 165283,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "main.066a2d8b7aa396b17c32.css.br",
+      "size": 18960,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
       "name": "main.749dafa87acd48c343d6.bundle.js",
       "size": 208425,
       "chunks": [
@@ -407,26 +427,6 @@
     {
       "name": "main.749dafa87acd48c343d6.bundle.js.br",
       "size": 56112,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "main.c04eaa0b48f2163c407d.css",
-      "size": 165324,
-      "chunks": [
-        6
-      ],
-      "chunkNames": [
-        "main"
-      ],
-      "emitted": true
-    },
-    {
-      "name": "main.c04eaa0b48f2163c407d.css.br",
-      "size": 18967,
       "chunks": [
       ],
       "chunkNames": [
@@ -491,7 +491,7 @@
         6
       ],
       "assets": [
-        "main.c04eaa0b48f2163c407d.css",
+        "main.066a2d8b7aa396b17c32.css",
         "main.749dafa87acd48c343d6.bundle.js"
       ],
       "children": {
@@ -507,7 +507,7 @@
         6
       ],
       "assets": [
-        "main.c04eaa0b48f2163c407d.css",
+        "main.066a2d8b7aa396b17c32.css",
         "main.749dafa87acd48c343d6.bundle.js"
       ],
       "children": {
@@ -8268,15 +8268,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 459908,
+      "size": 459867,
       "names": [
         "main"
       ],
       "files": [
-        "main.c04eaa0b48f2163c407d.css",
+        "main.066a2d8b7aa396b17c32.css",
         "main.749dafa87acd48c343d6.bundle.js"
       ],
-      "hash": "16e0b09062c46f229c8b",
+      "hash": "d6a4c30797c993bb38c9",
       "siblings": [
       ],
       "parents": [
@@ -16223,7 +16223,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/App/App.scss",
           "index": 54,
           "index2": 51,
-          "size": 269,
+          "size": 242,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -16276,7 +16276,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Nav/Nav.scss",
           "index": 18,
           "index2": 14,
-          "size": 1315,
+          "size": 1301,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -30657,7 +30657,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/App/App.scss",
       "index": 54,
       "index2": 51,
-      "size": 269,
+      "size": 242,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -30768,7 +30768,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Nav/Nav.scss",
       "index": 18,
       "index2": 14,
-      "size": 1315,
+      "size": 1301,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -31988,14 +31988,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3091,
+          "size": 3064,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "6dbd676a2a5b6cba581a",
+          "hash": "6e40c32e871a80bc8e20",
           "siblings": [
           ],
           "parents": [
@@ -32011,7 +32011,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/App/App.scss",
               "index": 0,
               "index2": 1,
-              "size": 414,
+              "size": 387,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -32115,7 +32115,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/App/App.scss",
           "index": 0,
           "index2": 1,
-          "size": 414,
+          "size": 387,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -33346,14 +33346,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 4137,
+          "size": 4123,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "ffc9103db2ab4053f2e9",
+          "hash": "a85e3449ec3c9cb8c741",
           "siblings": [
           ],
           "parents": [
@@ -33369,7 +33369,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Nav/Nav.scss",
               "index": 0,
               "index2": 1,
-              "size": 1460,
+              "size": 1446,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -33473,7 +33473,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Nav/Nav.scss",
           "index": 0,
           "index2": 1,
-          "size": 1460,
+          "size": 1446,
           "cacheable": true,
           "built": true,
           "optional": false,
