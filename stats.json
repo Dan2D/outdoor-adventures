@@ -2,17 +2,17 @@
   "errors": [
   ],
   "warnings": [
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (365 KiB)\n      main.68091d3238f6fc8f46b8.css\n      main.575d7dac4d4bbe3079c6.bundle.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (365 KiB)\n      main.5f80a721e82603f799c9.css\n      main.fb40a5e8b803bf0d764f.bundle.js\n"
   ],
   "version": "4.39.3",
-  "hash": "d2887d5a92a4bab8201e",
-  "time": 4616,
-  "builtAt": 1568776555299,
+  "hash": "5cc0040815f4b6010891",
+  "time": 6189,
+  "builtAt": 1568776917193,
   "publicPath": "",
   "outputPath": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\dist",
   "assetsByChunkName": {
     "about~contact~explore~home": [
-      "about~contact~explore~home.a422c889c79b279c4159.css",
+      "about~contact~explore~home.8fed057d7192ddfde85e.css",
       "about~contact~explore~home.68e49ea7950f284a2d79.bundle.js"
     ],
     "vendors~about~home": "vendors~about~home.466a4a6bdf15a7e399e8.bundle.js",
@@ -33,8 +33,8 @@
       "home.45c02e9509675b123a18.bundle.js"
     ],
     "main": [
-      "main.68091d3238f6fc8f46b8.css",
-      "main.575d7dac4d4bbe3079c6.bundle.js"
+      "main.5f80a721e82603f799c9.css",
+      "main.fb40a5e8b803bf0d764f.bundle.js"
     ]
   },
   "assets": [
@@ -81,8 +81,8 @@
       "emitted": true
     },
     {
-      "name": "about~contact~explore~home.a422c889c79b279c4159.css",
-      "size": 19891,
+      "name": "about~contact~explore~home.8fed057d7192ddfde85e.css",
+      "size": 19893,
       "chunks": [
         0
       ],
@@ -92,8 +92,8 @@
       "emitted": true
     },
     {
-      "name": "about~contact~explore~home.a422c889c79b279c4159.css.br",
-      "size": 1838,
+      "name": "about~contact~explore~home.8fed057d7192ddfde85e.css.br",
+      "size": 1837,
       "chunks": [
       ],
       "chunkNames": [
@@ -401,7 +401,27 @@
       "emitted": true
     },
     {
-      "name": "main.575d7dac4d4bbe3079c6.bundle.js",
+      "name": "main.5f80a721e82603f799c9.css",
+      "size": 165235,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "main.5f80a721e82603f799c9.css.br",
+      "size": 18857,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "main.fb40a5e8b803bf0d764f.bundle.js",
       "size": 208328,
       "chunks": [
         6
@@ -412,28 +432,8 @@
       "emitted": true
     },
     {
-      "name": "main.575d7dac4d4bbe3079c6.bundle.js.br",
-      "size": 56125,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "main.68091d3238f6fc8f46b8.css",
-      "size": 165202,
-      "chunks": [
-        6
-      ],
-      "chunkNames": [
-        "main"
-      ],
-      "emitted": true
-    },
-    {
-      "name": "main.68091d3238f6fc8f46b8.css.br",
-      "size": 18967,
+      "name": "main.fb40a5e8b803bf0d764f.bundle.js.br",
+      "size": 56157,
       "chunks": [
       ],
       "chunkNames": [
@@ -477,8 +477,8 @@
         6
       ],
       "assets": [
-        "main.68091d3238f6fc8f46b8.css",
-        "main.575d7dac4d4bbe3079c6.bundle.js"
+        "main.5f80a721e82603f799c9.css",
+        "main.fb40a5e8b803bf0d764f.bundle.js"
       ],
       "children": {
       },
@@ -493,8 +493,8 @@
         6
       ],
       "assets": [
-        "main.68091d3238f6fc8f46b8.css",
-        "main.575d7dac4d4bbe3079c6.bundle.js"
+        "main.5f80a721e82603f799c9.css",
+        "main.fb40a5e8b803bf0d764f.bundle.js"
       ],
       "children": {
       },
@@ -510,7 +510,7 @@
       ],
       "assets": [
         "vendors~about~home.466a4a6bdf15a7e399e8.bundle.js",
-        "about~contact~explore~home.a422c889c79b279c4159.css",
+        "about~contact~explore~home.8fed057d7192ddfde85e.css",
         "about~contact~explore~home.68e49ea7950f284a2d79.bundle.js",
         "home.55beee73ee6c978f915c.css",
         "home.45c02e9509675b123a18.bundle.js"
@@ -526,7 +526,7 @@
         4
       ],
       "assets": [
-        "about~contact~explore~home.a422c889c79b279c4159.css",
+        "about~contact~explore~home.8fed057d7192ddfde85e.css",
         "about~contact~explore~home.68e49ea7950f284a2d79.bundle.js",
         "explore.63800d3779b4ac9efee3.css",
         "explore.d6b679d35a993306fd8c.bundle.js"
@@ -544,7 +544,7 @@
       ],
       "assets": [
         "vendors~about~home.466a4a6bdf15a7e399e8.bundle.js",
-        "about~contact~explore~home.a422c889c79b279c4159.css",
+        "about~contact~explore~home.8fed057d7192ddfde85e.css",
         "about~contact~explore~home.68e49ea7950f284a2d79.bundle.js",
         "about.dce38e4d12812ab9ea35.css",
         "about.8ebcc9477e0bf3df5797.bundle.js"
@@ -560,7 +560,7 @@
         3
       ],
       "assets": [
-        "about~contact~explore~home.a422c889c79b279c4159.css",
+        "about~contact~explore~home.8fed057d7192ddfde85e.css",
         "about~contact~explore~home.68e49ea7950f284a2d79.bundle.js",
         "contact.bab90c93eed3559007eb.css",
         "contact.cbd4b8d4d57aba5bb081.bundle.js"
@@ -578,15 +578,15 @@
       "initial": false,
       "entry": false,
       "reason": "split chunk (cache group: default) (name: about~contact~explore~home)",
-      "size": 79925,
+      "size": 79927,
       "names": [
         "about~contact~explore~home"
       ],
       "files": [
-        "about~contact~explore~home.a422c889c79b279c4159.css",
+        "about~contact~explore~home.8fed057d7192ddfde85e.css",
         "about~contact~explore~home.68e49ea7950f284a2d79.bundle.js"
       ],
-      "hash": "7e799e0c1c2c504caab1",
+      "hash": "d74c4adc6b2e729d6867",
       "siblings": [
         1,
         2,
@@ -1251,7 +1251,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Hero/Hero.scss",
           "index": 62,
           "index2": 59,
-          "size": 19890,
+          "size": 19892,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -8388,15 +8388,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 459786,
+      "size": 459819,
       "names": [
         "main"
       ],
       "files": [
-        "main.68091d3238f6fc8f46b8.css",
-        "main.575d7dac4d4bbe3079c6.bundle.js"
+        "main.5f80a721e82603f799c9.css",
+        "main.fb40a5e8b803bf0d764f.bundle.js"
       ],
-      "hash": "47af420a8cfa61e8077f",
+      "hash": "e90d1599d62255f51539",
       "siblings": [
       ],
       "parents": [
@@ -16233,7 +16233,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.scss",
           "index": 58,
           "index2": 56,
-          "size": 5038,
+          "size": 5071,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -30086,7 +30086,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.scss",
       "index": 58,
       "index2": 56,
-      "size": 5038,
+      "size": 5071,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -30598,7 +30598,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Hero/Hero.scss",
       "index": 62,
       "index2": 59,
-      "size": 19890,
+      "size": 19892,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -32272,14 +32272,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 14994,
+          "size": 14996,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "c6aec5d74c6fa75b5af7",
+          "hash": "b60d511f18e217f92145",
           "siblings": [
           ],
           "parents": [
@@ -32295,7 +32295,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Hero/Hero.scss",
               "index": 0,
               "index2": 4,
-              "size": 2816,
+              "size": 2818,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -32540,7 +32540,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Hero/Hero.scss",
           "index": 0,
           "index2": 4,
-          "size": 2816,
+          "size": 2818,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -34168,14 +34168,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 7886,
+          "size": 7919,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "6108f716af1f20771ff9",
+          "hash": "71a1fca529200d0f48d0",
           "siblings": [
           ],
           "parents": [
@@ -34191,7 +34191,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.scss",
               "index": 0,
               "index2": 1,
-              "size": 5209,
+              "size": 5242,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -34295,7 +34295,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.scss",
           "index": 0,
           "index2": 1,
-          "size": 5209,
+          "size": 5242,
           "cacheable": true,
           "built": true,
           "optional": false,
