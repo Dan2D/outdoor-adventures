@@ -5,9 +5,9 @@
     "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (365 KiB)\n      main.68091d3238f6fc8f46b8.css\n      main.575d7dac4d4bbe3079c6.bundle.js\n"
   ],
   "version": "4.39.3",
-  "hash": "922698b0d9cc152e0cbb",
-  "time": 4914,
-  "builtAt": 1568776445104,
+  "hash": "d2887d5a92a4bab8201e",
+  "time": 4616,
+  "builtAt": 1568776555299,
   "publicPath": "",
   "outputPath": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\dist",
   "assetsByChunkName": {
@@ -393,7 +393,7 @@
     },
     {
       "name": "index.html",
-      "size": 2317,
+      "size": 2314,
       "chunks": [
       ],
       "chunkNames": [
@@ -30678,7 +30678,7 @@
       "assets": [
         {
           "name": "index.html",
-          "size": 547890,
+          "size": 547887,
           "chunks": [
             0
           ],
@@ -30722,13 +30722,13 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 543940,
+          "size": 543937,
           "names": [
           ],
           "files": [
             "index.html"
           ],
-          "hash": "a8dcf10634fe6072d6a2",
+          "hash": "17ecda6d9efe4639d0d5",
           "siblings": [
           ],
           "parents": [
@@ -30744,7 +30744,7 @@
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
               "index": 0,
               "index2": 3,
-              "size": 2459,
+              "size": 2456,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -30951,7 +30951,7 @@
           "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
           "index": 0,
           "index2": 3,
-          "size": 2459,
+          "size": 2456,
           "cacheable": true,
           "built": true,
           "optional": false,
