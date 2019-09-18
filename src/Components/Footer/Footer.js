@@ -42,13 +42,13 @@ function Footer() {
                 </div>
                 <div className='footer__bottom row justify-content-center'>
                     <div className='footer__social-lnks'>
-                        <a href="https://www.instagram.com/" rel='noopenner noreferrer' target='_blank'>
-                            <SVG src={require("../../images/icons/instagram-icon.svg")} />
+                        <a href="https://www.instagram.com/" rel='noopenner noreferrer' aria-label='instagram link' target='_blank'>
+                            <SVG src={require("../../images/icons/instagram-icon.svg")}  />
                         </a>
-                        <a href="https://www.twitter.com/" rel='noopenner noreferrer' target='_blank'>
+                        <a href="https://www.twitter.com/" rel='noopenner noreferrer' aria-label='twitter link' target='_blank'>
                             <SVG src={require("../../images/icons/twitter-icon.svg")} />
                         </a>
-                        <a href="htttps://www.facebook.com/" rel='noopenner noreferrer' target='_blank'>
+                        <a href="htttps://www.facebook.com/" rel='noopenner noreferrer' aria-label='facebook link' target='_blank'>
                             <SVG src={require("../../images/icons/facebook-icon.svg")} />
                         </a>
                     </div>
