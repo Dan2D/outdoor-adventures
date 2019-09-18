@@ -2,6 +2,7 @@ const path = require('path');
 const common = require("./webpack.common");
 const merge = require('webpack-merge');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ImageMinWebpackPlugin = require('imagemin-webpack-plugin').default;
 const imageminMozjpeg = require('imagemin-mozjpeg');
 const MiniCSSWebpackPlugin = require('mini-css-extract-plugin');
@@ -13,6 +14,9 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
       pngquant: ({quality: 65}),
       plugins: [imageminMozjpeg({quality: 65})]
   });
+  const COPY_PLUGIN = new CopyWebpackPlugin([
+      {from: "./public"}
+  ])
   const MINI_CSS_PLUGIN = new MiniCSSWebpackPlugin({
       filename: '[name].[contenthash].css'
   })
@@ -35,7 +39,7 @@ module.exports = merge(common, {
         filename: 'main.[contenthash].bundle.js',
         chunkFilename: '[name].[contenthash].bundle.js'
     },
-    plugins: [new CleanWebpackPlugin(), MINI_CSS_PLUGIN ,BROTLI_PLUGIN, IMAGE_MIN_PLUGIN, BUNDLE_ANALYZER],
+    plugins: [new CleanWebpackPlugin(), COPY_PLUGIN, MINI_CSS_PLUGIN ,BROTLI_PLUGIN, IMAGE_MIN_PLUGIN, BUNDLE_ANALYZER],
     module: {
         rules: [
             {

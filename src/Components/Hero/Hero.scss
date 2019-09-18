@@ -102,12 +102,12 @@
             width: 200vw;
             &--A {
                 left: 0;
-                animation: sky-A 90000ms linear infinite;
+                animation: sky-A 220000ms linear infinite;
             }
             &--B {
                 left: 200vw;
                 transform: scaleX(-1);
-                animation: sky-B 90000ms linear infinite;
+                animation: sky-B 220000ms linear infinite;
             }
         }
         &__img {
