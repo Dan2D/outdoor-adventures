@@ -15,7 +15,7 @@ function Blurb() {
             <SVG className='blurb__logo-bg' src={require("../../images/site-logo.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="black"')} />
             <Slider {...settings}>
                 <div>
-                    <img src={require("../../images/hero-bg.jpg")} alt="slide" />
+                    <img src={require("../../images/rentals/kayaks-bg.jpg")} alt="slide" />
                 </div>
                 <div>
                     <img src={require("../../images/slide-2.jpg")} alt="slide" />

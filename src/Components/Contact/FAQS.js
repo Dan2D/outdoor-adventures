@@ -1,4 +1,7 @@
 import React from 'react';
+import 'popper.js/dist/umd/popper';
+import 'jquery/dist/jquery.slim';
+import 'bootstrap/dist/js/bootstrap.min.js'
 import SVG from 'react-inlinesvg';
 
 function FAQS() {

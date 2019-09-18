@@ -12,10 +12,10 @@
         width: 100vw;
         margin-top: -5px;
         padding: 5px;
-        background:#366f99;
+        background:var(--footer-bg);
         & a, span, .copyright {
             font-size: 0.8em;
-            color: #78B6E3;
+            color: #B1EBFC;
         }
     }
     &__logo {
@@ -63,6 +63,9 @@
 }
 
 @media screen and (min-width: 767px) {
+    .footer-waves {
+        width: 200%;
+    }
     .footer__right {
         display: flex;
         justify-content: flex-end;
