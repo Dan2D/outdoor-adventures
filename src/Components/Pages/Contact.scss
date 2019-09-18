@@ -1,12 +1,15 @@
 .contact {
     &-container {
-        background: var(--hero-contact-bg);
+        background: var(--footer-bg);
         margin-bottom: 25px;
+    }
+    &-form-container {
+        margin-top: 25px;
     }
     &__send-btn {
         margin: 3px 15px;
-        background: var(--color-blue);
-        color: var(--hero-contact-bg);
+        background: var(--color-cyan);
+        color: var(--color--blue);
         &:hover {
             color: var(--color-cyan-hover);
         }
@@ -22,9 +25,9 @@ button.faq-btn {
 .faqs{
     &-container {
         position: relative;
-        background: linear-gradient(to bottom, var(--hero-contact-bg), var(--footer-bg));
+        background: var(--footer-bg);
         padding: 25px 10px;
-        & p, h1, h2, h3, h4, h5 {
+        & p, h5 {
             color: black;
         }
     }

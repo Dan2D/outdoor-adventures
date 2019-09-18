@@ -51,8 +51,11 @@
             }
         }
     }
-    &-lnk:hover {
-        color: #ffffff !important;
+    &-lnk {
+        color: #e0efff;
+        &:hover {
+            color: #ffffff !important;
+        }
     }
 }
 

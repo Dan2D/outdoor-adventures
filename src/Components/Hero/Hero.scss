@@ -7,17 +7,9 @@
         &--home {
             padding-top: 12vh;
         }
-        &--explore {
-            background: var(--color-orange);
-            border-image: url("../../images/wave-border.svg") 25 space;
-        }
-        &--about {
-            background: #85CCC8;
-            border-image: url("../../images/wave-border.svg") 25 space;
-        }
-        &--contact {
-            background: var(--hero-contact-bg);
-        }
+    }
+    &-bg {
+        display: none;
     }
     &__clouds-bg {
         display: none;
@@ -72,10 +64,12 @@
     height: 25vw;
     z-index: 2;
     &--contact {
-        right: auto;
-        left: 5px;
-        bottom: 5px;
+        right: -54px;
+        bottom: -55px;
         height: 20vw;
+    }
+    &--about {
+        right: 0;
     }
 }
 
@@ -83,10 +77,9 @@
     .hero {
         &-container {
             padding: 0;
-            margin-bottom: 50px;
-            &--contact {
-                background: var(--hero-contact-bg);
-            }
+        }
+        &-bg {
+            display: block;
         }
         &__mtn-bg {
             display: block;
@@ -105,7 +98,7 @@
                 animation: sky-A 220000ms linear infinite;
             }
             &--B {
-                left: 200vw;
+                left: 203vw;
                 transform: scaleX(-1);
                 animation: sky-B 220000ms linear infinite;
             }
@@ -116,12 +109,9 @@
             right: 0;
             width: 95%;
             max-width: 850px;
-            max-height: 545px;
+            max-height: 380px;
             margin: 33px auto;
             border: 3px solid white;
-            &--contact {
-                border: none;
-            }
         }
         &__page-title {
             margin: 10px 0 0 10px;
@@ -130,13 +120,22 @@
             width: 100%;
             margin: 10% auto;
         }
+        &__c2a-btn {
+            position: absolute;
+            right: 10px;
+            bottom: 30px;
+        }
         &-svg {
             max-height: 215px;
-            z-index: 0;
+            z-index: 1;
+            &--about {
+                z-index: 0;
+            }
         }
         &-border--bottom {
-            width: 101%;
+            width: 110%;
             transform: scaleY(2);
+            bottom: -3px;
         }
     }
 }
