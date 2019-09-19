@@ -35,8 +35,13 @@
         margin: 15px auto;
         color: white;
         text-align: center;
+        white-space: pre;
         &--home {
             margin-top: 30%;
+        }
+        &--about,
+        &--contact {
+            white-space: normal;
         }
     }
     &__c2a-btn {
@@ -51,7 +56,7 @@
     }
     &-border--bottom {
         position: absolute;
-        bottom: 0;
+        bottom: -1px;
         width: 120%;
         transform: scaleY(1.5);
     }
@@ -64,7 +69,7 @@
     height: 25vw;
     z-index: 2;
     &--contact {
-        right: -54px;
+        right: 5px;
         bottom: -55px;
         height: 20vw;
     }
@@ -136,6 +141,11 @@
             width: 110%;
             transform: scaleY(2);
             bottom: -3px;
+        }
+    }
+    .hero-svg {
+        &--contact {
+            right: -54px;
         }
     }
 }

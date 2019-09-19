@@ -34,7 +34,7 @@ function Explore(props) {
 
     return (
         <div className='explore-container'>
-            <Hero page='explore' title='Explore' text='- Grab Your Gear And Explore The Sites -' />
+            <Hero page='explore' title='Explore' text={`- Grab Your Gear ${'\n'} Explore The Sites -`} />
             <div className='rental-tiles-container'>
                 <h2 className='rental-tiles__title'>Rentals</h2>
                 <Tile rental='kayaks' />

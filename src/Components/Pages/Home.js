@@ -12,7 +12,7 @@ function Home(props) {
     window.scrollTo(0,0);
     return (
         <>
-            <Hero page="home" text="Come On In The Water's Fine!"/>
+            <Hero page="home" text={`Come On In,${'\n'}The Water's Fine!`}/>
             <Categories />
             <Blurb />
             <Tours />
