@@ -1,5 +1,5 @@
 import React from 'react';
-
+import SVG from 'react-inlinesvg';
 import Slider from 'react-slick';
 import Card from "../Card";
 
@@ -37,6 +37,8 @@ function Reviews() {
       };
     return (
         <div className='review-container'>
+            <SVG className='review__bg' src={require("../../images/review-bg.svg")} />
+            <SVG className='review__svg' src={require("../../images/review-svg.svg")} />
             <Slider {...settings}>
                 <div>
                     <Card type='review' cardTitle='Great Staff and Great Gear!' 
