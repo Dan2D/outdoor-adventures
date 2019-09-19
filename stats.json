@@ -3,17 +3,17 @@
   ],
   "warnings": [
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  vendors~contact.6cf127c886fec13432d7.bundle.js (256 KiB)",
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (389 KiB)\n      main.bee292a5cc291abd1b0f.css\n      main.5adbc34e184e9343eeb7.bundle.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (389 KiB)\n      main.bee292a5cc291abd1b0f.css\n      main.af47671bad050b23ef41.bundle.js\n"
   ],
   "version": "4.39.3",
-  "hash": "5803710d08ad438b924b",
-  "time": 6894,
-  "builtAt": 1568904699992,
+  "hash": "419757f2389b633ac02e",
+  "time": 6900,
+  "builtAt": 1568905638304,
   "publicPath": "",
   "outputPath": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\dist",
   "assetsByChunkName": {
     "about~contact~explore~home": [
-      "about~contact~explore~home.405966541020aeb051fa.css",
+      "about~contact~explore~home.dc35645d3ca5334a92a5.css",
       "about~contact~explore~home.d8f2f5bdcd3397fa815c.bundle.js"
     ],
     "vendors~about~home": "vendors~about~home.c8686305815eb44ca096.bundle.js",
@@ -27,15 +27,15 @@
     ],
     "explore": [
       "explore.fd808bdef04f7b16acae.css",
-      "explore.a19f7a58fb42cf94be91.bundle.js"
+      "explore.f8730bb8e2f5356b0c82.bundle.js"
     ],
     "home": [
       "home.22666353fd4b6b80bbcf.css",
-      "home.8cc37a47f51c9939a50e.bundle.js"
+      "home.378ab869934aaed8d8d0.bundle.js"
     ],
     "main": [
       "main.bee292a5cc291abd1b0f.css",
-      "main.5adbc34e184e9343eeb7.bundle.js"
+      "main.af47671bad050b23ef41.bundle.js"
     ],
     "vendors~contact": "vendors~contact.6cf127c886fec13432d7.bundle.js"
   },
@@ -63,17 +63,6 @@
       "emitted": true
     },
     {
-      "name": "about~contact~explore~home.405966541020aeb051fa.css",
-      "size": 2234,
-      "chunks": [
-        0
-      ],
-      "chunkNames": [
-        "about~contact~explore~home"
-      ],
-      "emitted": true
-    },
-    {
       "name": "about~contact~explore~home.d8f2f5bdcd3397fa815c.bundle.js",
       "size": 35864,
       "chunks": [
@@ -90,6 +79,17 @@
       "chunks": [
       ],
       "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "about~contact~explore~home.dc35645d3ca5334a92a5.css",
+      "size": 2347,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "about~contact~explore~home"
       ],
       "emitted": true
     },
@@ -143,8 +143,8 @@
       "emitted": true
     },
     {
-      "name": "explore.a19f7a58fb42cf94be91.bundle.js",
-      "size": 15734,
+      "name": "explore.f8730bb8e2f5356b0c82.bundle.js",
+      "size": 15747,
       "chunks": [
         4
       ],
@@ -154,8 +154,8 @@
       "emitted": true
     },
     {
-      "name": "explore.a19f7a58fb42cf94be91.bundle.js.br",
-      "size": 4731,
+      "name": "explore.f8730bb8e2f5356b0c82.bundle.js.br",
+      "size": 4762,
       "chunks": [
       ],
       "chunkNames": [
@@ -212,8 +212,8 @@
       "emitted": true
     },
     {
-      "name": "home.8cc37a47f51c9939a50e.bundle.js",
-      "size": 8447,
+      "name": "home.378ab869934aaed8d8d0.bundle.js",
+      "size": 8462,
       "chunks": [
         5
       ],
@@ -385,7 +385,7 @@
       "emitted": true
     },
     {
-      "name": "main.5adbc34e184e9343eeb7.bundle.js",
+      "name": "main.af47671bad050b23ef41.bundle.js",
       "size": 232722,
       "chunks": [
         6
@@ -396,8 +396,8 @@
       "emitted": true
     },
     {
-      "name": "main.5adbc34e184e9343eeb7.bundle.js.br",
-      "size": 62820,
+      "name": "main.af47671bad050b23ef41.bundle.js.br",
+      "size": 62777,
       "chunks": [
       ],
       "chunkNames": [
@@ -483,7 +483,7 @@
       ],
       "assets": [
         "main.bee292a5cc291abd1b0f.css",
-        "main.5adbc34e184e9343eeb7.bundle.js"
+        "main.af47671bad050b23ef41.bundle.js"
       ],
       "children": {
       },
@@ -499,7 +499,7 @@
       ],
       "assets": [
         "main.bee292a5cc291abd1b0f.css",
-        "main.5adbc34e184e9343eeb7.bundle.js"
+        "main.af47671bad050b23ef41.bundle.js"
       ],
       "children": {
       },
@@ -515,10 +515,10 @@
       ],
       "assets": [
         "vendors~about~home.c8686305815eb44ca096.bundle.js",
-        "about~contact~explore~home.405966541020aeb051fa.css",
+        "about~contact~explore~home.dc35645d3ca5334a92a5.css",
         "about~contact~explore~home.d8f2f5bdcd3397fa815c.bundle.js",
         "home.22666353fd4b6b80bbcf.css",
-        "home.8cc37a47f51c9939a50e.bundle.js"
+        "home.378ab869934aaed8d8d0.bundle.js"
       ],
       "children": {
       },
@@ -531,10 +531,10 @@
         4
       ],
       "assets": [
-        "about~contact~explore~home.405966541020aeb051fa.css",
+        "about~contact~explore~home.dc35645d3ca5334a92a5.css",
         "about~contact~explore~home.d8f2f5bdcd3397fa815c.bundle.js",
         "explore.fd808bdef04f7b16acae.css",
-        "explore.a19f7a58fb42cf94be91.bundle.js"
+        "explore.f8730bb8e2f5356b0c82.bundle.js"
       ],
       "children": {
       },
@@ -549,7 +549,7 @@
       ],
       "assets": [
         "vendors~about~home.c8686305815eb44ca096.bundle.js",
-        "about~contact~explore~home.405966541020aeb051fa.css",
+        "about~contact~explore~home.dc35645d3ca5334a92a5.css",
         "about~contact~explore~home.d8f2f5bdcd3397fa815c.bundle.js",
         "about.2f192995ce051562bebd.css",
         "about.cff14cbaeeaa195fc48f.bundle.js"
@@ -567,7 +567,7 @@
       ],
       "assets": [
         "vendors~contact.6cf127c886fec13432d7.bundle.js",
-        "about~contact~explore~home.405966541020aeb051fa.css",
+        "about~contact~explore~home.dc35645d3ca5334a92a5.css",
         "about~contact~explore~home.d8f2f5bdcd3397fa815c.bundle.js",
         "contact.5783d6c58ee08989a525.css",
         "contact.0fdd7ad0f281f789ad0d.bundle.js"
@@ -585,15 +585,15 @@
       "initial": false,
       "entry": false,
       "reason": "split chunk (cache group: default) (name: about~contact~explore~home)",
-      "size": 38916,
+      "size": 39029,
       "names": [
         "about~contact~explore~home"
       ],
       "files": [
-        "about~contact~explore~home.405966541020aeb051fa.css",
+        "about~contact~explore~home.dc35645d3ca5334a92a5.css",
         "about~contact~explore~home.d8f2f5bdcd3397fa815c.bundle.js"
       ],
-      "hash": "9f8264913564850d2b01",
+      "hash": "514b9c94c465670b104b",
       "siblings": [
         1,
         2,
@@ -1126,7 +1126,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Hero/Hero.scss",
           "index": 65,
           "index2": 62,
-          "size": 2233,
+          "size": 2346,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -3841,15 +3841,15 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 25708,
+      "size": 25722,
       "names": [
         "explore"
       ],
       "files": [
         "explore.fd808bdef04f7b16acae.css",
-        "explore.a19f7a58fb42cf94be91.bundle.js"
+        "explore.f8730bb8e2f5356b0c82.bundle.js"
       ],
-      "hash": "2309a503376c328ed0bf",
+      "hash": "2ba174e24d3105472ff4",
       "siblings": [
         0
       ],
@@ -5753,7 +5753,7 @@
           "name": "./src/Components/Pages/Explore.js + 4 modules",
           "index": 113,
           "index2": 131,
-          "size": 9319,
+          "size": 9333,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5800,7 +5800,7 @@
               "name": "./src/Components/Pages/Explore.js",
               "index": 113,
               "index2": 131,
-              "size": 1728,
+              "size": 1742,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -6286,15 +6286,15 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 12662,
+      "size": 12678,
       "names": [
         "home"
       ],
       "files": [
         "home.22666353fd4b6b80bbcf.css",
-        "home.8cc37a47f51c9939a50e.bundle.js"
+        "home.378ab869934aaed8d8d0.bundle.js"
       ],
-      "hash": "a868f373a4dfc92c7b1c",
+      "hash": "5693e4697a4537ca2689",
       "siblings": [
         0,
         1
@@ -7615,7 +7615,7 @@
           "name": "./src/Components/Pages/Home.js + 4 modules",
           "index": 62,
           "index2": 112,
-          "size": 7393,
+          "size": 7409,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -7663,7 +7663,7 @@
               "name": "./src/Components/Pages/Home.js",
               "index": 62,
               "index2": 112,
-              "size": 608,
+              "size": 624,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -8132,9 +8132,9 @@
       ],
       "files": [
         "main.bee292a5cc291abd1b0f.css",
-        "main.5adbc34e184e9343eeb7.bundle.js"
+        "main.af47671bad050b23ef41.bundle.js"
       ],
-      "hash": "dea2b433d5c53229fba8",
+      "hash": "7ae72f0f657eacb092b3",
       "siblings": [
       ],
       "parents": [
@@ -29660,7 +29660,7 @@
       "name": "./src/Components/Pages/Home.js + 4 modules",
       "index": 62,
       "index2": 112,
-      "size": 7393,
+      "size": 7409,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -29708,7 +29708,7 @@
           "name": "./src/Components/Pages/Home.js",
           "index": 62,
           "index2": 112,
-          "size": 608,
+          "size": 624,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -30036,7 +30036,7 @@
       "name": "./src/Components/Pages/Explore.js + 4 modules",
       "index": 113,
       "index2": 131,
-      "size": 9319,
+      "size": 9333,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -30083,7 +30083,7 @@
           "name": "./src/Components/Pages/Explore.js",
           "index": 113,
           "index2": 131,
-          "size": 1728,
+          "size": 1742,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -31294,7 +31294,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Hero/Hero.scss",
       "index": 65,
       "index2": 62,
-      "size": 2233,
+      "size": 2346,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -32968,14 +32968,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 5932,
+          "size": 6045,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "7e550dc30f9b6e3f719b",
+          "hash": "bc96a313290ad8dfbc4a",
           "siblings": [
           ],
           "parents": [
@@ -32991,7 +32991,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Hero/Hero.scss",
               "index": 0,
               "index2": 3,
-              "size": 2527,
+              "size": 2640,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -33189,7 +33189,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Hero/Hero.scss",
           "index": 0,
           "index2": 3,
-          "size": 2527,
+          "size": 2640,
           "cacheable": true,
           "built": true,
           "optional": false,
