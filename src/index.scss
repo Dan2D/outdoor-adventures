@@ -12,7 +12,8 @@
   --color-blue-hover: rgb(122, 255, 248);
   --color-blue-dark: rgb(60, 122, 119);
   --hero-contact-bg: #6fcae3;
-  --sky-bg: #c1f7da;
+  --sky-bg: #a3d3ff;
+  --sea-bg: #366f99;
   --footer-bg: #366f99;
   --root-font-size: 16px;
 }
@@ -36,6 +37,10 @@ html, body {
           height: auto;
           max-width: auto;
           margin: 0;
+      }
+      &--detail {
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px darkgray, -2px -2px 10px darkgray;
       }
   }
   &__top {
@@ -126,6 +131,7 @@ html, body {
 &-container {
   position: relative;
   width: 95vw;
+  max-width: 800px;
   margin: 10px 0;
   padding: 5px;
   border-radius: 5px;
@@ -209,8 +215,8 @@ html, body {
   &-next {
       right: 5px;
   }
-  &-slide.slick-active {
-   display: flex;
+  &-slide {
+   display: flex !important;
    justify-content: center;
   }
 }

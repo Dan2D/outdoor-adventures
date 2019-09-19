@@ -9,7 +9,7 @@ function Reviews() {
         dots: true,
         arrows: false,
         infinite: true,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 8000,
         speed: 500,
         slidesToShow: 1,

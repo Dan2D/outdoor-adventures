@@ -8,8 +8,10 @@ function About() {
     const settings = {
         arrows: true,
         infinite: true,
+        autoplay: true,
         lazy: 'on-demand',
-        speed: 500,
+        interval: 5000,
+        speed: 1000,
         slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [

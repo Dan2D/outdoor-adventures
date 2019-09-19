@@ -6,7 +6,9 @@ import Slider from 'react-slick';
 function Blurb() {
     const settings = {
         infinite: true,
-        speed: 500,
+        autoplay: true,
+        interval: 7000,
+        speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1
       };
