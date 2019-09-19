@@ -12,7 +12,7 @@ function Tours() {
                 <Card type="tour" price={80} cardTitle="LightHouse Tour" bg="tour2"/>
                 <Card type="tour" price={120} cardTitle="3-Hour Night Tour" bg="tour3"/>
             </div>
-            <Link className='tours__btn btn' to="/tours">More Tours...</Link>
+            <Link className='tours__btn btn' to="/explore?category=tours">More Tours...</Link>
         </div>
     )
 }

@@ -7,7 +7,7 @@ function Blurb() {
     const settings = {
         infinite: true,
         autoplay: true,
-        interval: 7000,
+        autoplaySpeed: 8000,
         speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1

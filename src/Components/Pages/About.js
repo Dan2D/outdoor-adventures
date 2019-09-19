@@ -10,7 +10,7 @@ function About() {
         infinite: true,
         autoplay: true,
         lazy: 'on-demand',
-        interval: 5000,
+        autoplaySpeed: 8000,
         speed: 1000,
         slidesToShow: 5,
         slidesToScroll: 1,

@@ -16,10 +16,10 @@ function Card(props) {
                 {props.type === REVIEW && <SVG className='card__site-logo' src={require("../images/site-logo.svg")} preProcessor={code => code.replace(/fill=".*?"/g, 'fill="black"')} />}
                 <div className='card__top-txt'>
                     {props.price && <p>${props.price}</p>}
-                    <h4 className='card__title'>{props.cardTitle}</h4>
+                    <h4 className='card__title'>{props.cardTitle[0].toUpperCase().concat(props.cardTitle.slice(1))}</h4>
                 </div>
                 {props.type !== REVIEW ? (
-                <Link className={`card__btn card__btn--${props.type} btn`} to={`/explore?category=tours`}>
+                <Link className={`card__btn card__btn--${props.type} btn`} to={`/explore?category=${props.cardTitle}`}>
                     Learn More
                 </Link>) : (
                 <>
