@@ -3,12 +3,12 @@
   ],
   "warnings": [
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  vendors~contact.6cf127c886fec13432d7.bundle.js (256 KiB)",
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (389 KiB)\n      main.bee292a5cc291abd1b0f.css\n      main.7c2a64e620f7bee00015.bundle.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (389 KiB)\n      main.bee292a5cc291abd1b0f.css\n      main.5adbc34e184e9343eeb7.bundle.js\n"
   ],
   "version": "4.39.3",
-  "hash": "c31029f07605f588a72d",
-  "time": 7272,
-  "builtAt": 1568904649296,
+  "hash": "5803710d08ad438b924b",
+  "time": 6894,
+  "builtAt": 1568904699992,
   "publicPath": "",
   "outputPath": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\dist",
   "assetsByChunkName": {
@@ -31,11 +31,11 @@
     ],
     "home": [
       "home.22666353fd4b6b80bbcf.css",
-      "home.8d09cc599e4f107d0709.bundle.js"
+      "home.8cc37a47f51c9939a50e.bundle.js"
     ],
     "main": [
       "main.bee292a5cc291abd1b0f.css",
-      "main.7c2a64e620f7bee00015.bundle.js"
+      "main.5adbc34e184e9343eeb7.bundle.js"
     ],
     "vendors~contact": "vendors~contact.6cf127c886fec13432d7.bundle.js"
   },
@@ -212,8 +212,8 @@
       "emitted": true
     },
     {
-      "name": "home.8d09cc599e4f107d0709.bundle.js",
-      "size": 8446,
+      "name": "home.8cc37a47f51c9939a50e.bundle.js",
+      "size": 8447,
       "chunks": [
         5
       ],
@@ -385,7 +385,7 @@
       "emitted": true
     },
     {
-      "name": "main.7c2a64e620f7bee00015.bundle.js",
+      "name": "main.5adbc34e184e9343eeb7.bundle.js",
       "size": 232722,
       "chunks": [
         6
@@ -396,8 +396,8 @@
       "emitted": true
     },
     {
-      "name": "main.7c2a64e620f7bee00015.bundle.js.br",
-      "size": 62802,
+      "name": "main.5adbc34e184e9343eeb7.bundle.js.br",
+      "size": 62820,
       "chunks": [
       ],
       "chunkNames": [
@@ -483,7 +483,7 @@
       ],
       "assets": [
         "main.bee292a5cc291abd1b0f.css",
-        "main.7c2a64e620f7bee00015.bundle.js"
+        "main.5adbc34e184e9343eeb7.bundle.js"
       ],
       "children": {
       },
@@ -499,7 +499,7 @@
       ],
       "assets": [
         "main.bee292a5cc291abd1b0f.css",
-        "main.7c2a64e620f7bee00015.bundle.js"
+        "main.5adbc34e184e9343eeb7.bundle.js"
       ],
       "children": {
       },
@@ -518,7 +518,7 @@
         "about~contact~explore~home.405966541020aeb051fa.css",
         "about~contact~explore~home.d8f2f5bdcd3397fa815c.bundle.js",
         "home.22666353fd4b6b80bbcf.css",
-        "home.8d09cc599e4f107d0709.bundle.js"
+        "home.8cc37a47f51c9939a50e.bundle.js"
       ],
       "children": {
       },
@@ -6286,15 +6286,15 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 12661,
+      "size": 12662,
       "names": [
         "home"
       ],
       "files": [
         "home.22666353fd4b6b80bbcf.css",
-        "home.8d09cc599e4f107d0709.bundle.js"
+        "home.8cc37a47f51c9939a50e.bundle.js"
       ],
-      "hash": "862f1af8a0e4ba80fbdd",
+      "hash": "a868f373a4dfc92c7b1c",
       "siblings": [
         0,
         1
@@ -7615,7 +7615,7 @@
           "name": "./src/Components/Pages/Home.js + 4 modules",
           "index": 62,
           "index2": 112,
-          "size": 7392,
+          "size": 7393,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -7663,7 +7663,7 @@
               "name": "./src/Components/Pages/Home.js",
               "index": 62,
               "index2": 112,
-              "size": 607,
+              "size": 608,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -8132,9 +8132,9 @@
       ],
       "files": [
         "main.bee292a5cc291abd1b0f.css",
-        "main.7c2a64e620f7bee00015.bundle.js"
+        "main.5adbc34e184e9343eeb7.bundle.js"
       ],
-      "hash": "d6249d39d6de3ad47a79",
+      "hash": "dea2b433d5c53229fba8",
       "siblings": [
       ],
       "parents": [
@@ -8602,7 +8602,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-46"
+              "loc": "1:0-26"
             },
             {
               "moduleId": 22,
@@ -8611,7 +8611,7 @@
               "moduleName": "./src/Components/App/App.js + 2 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-26"
+              "loc": "1:0-46"
             },
             {
               "moduleId": 22,
@@ -17298,7 +17298,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-26"
+          "loc": "1:0-46"
         },
         {
           "moduleId": 22,
@@ -17307,7 +17307,7 @@
           "moduleName": "./src/Components/App/App.js + 2 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-46"
+          "loc": "1:0-26"
         },
         {
           "moduleId": 22,
@@ -29660,7 +29660,7 @@
       "name": "./src/Components/Pages/Home.js + 4 modules",
       "index": 62,
       "index2": 112,
-      "size": 7392,
+      "size": 7393,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -29708,7 +29708,7 @@
           "name": "./src/Components/Pages/Home.js",
           "index": 62,
           "index2": 112,
-          "size": 607,
+          "size": 608,
           "cacheable": true,
           "built": true,
           "optional": false,
