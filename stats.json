@@ -3,12 +3,12 @@
   ],
   "warnings": [
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  vendors~contact.6cf127c886fec13432d7.bundle.js (256 KiB)",
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (389 KiB)\n      main.bee292a5cc291abd1b0f.css\n      main.e39414b61aec998ab6c9.bundle.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (389 KiB)\n      main.bee292a5cc291abd1b0f.css\n      main.de6fd60e1d02a0eb867e.bundle.js\n"
   ],
   "version": "4.39.3",
-  "hash": "ad23c14cc35c90404d94",
-  "time": 7023,
-  "builtAt": 1568906674527,
+  "hash": "4b702a9074449bd83e7a",
+  "time": 6424,
+  "builtAt": 1568907193633,
   "publicPath": "",
   "outputPath": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\dist",
   "assetsByChunkName": {
@@ -27,15 +27,15 @@
     ],
     "explore": [
       "explore.fd808bdef04f7b16acae.css",
-      "explore.f8730bb8e2f5356b0c82.bundle.js"
+      "explore.58eaddfc120307fcac48.bundle.js"
     ],
     "home": [
       "home.22666353fd4b6b80bbcf.css",
-      "home.10d8abdc6357d5b289cd.bundle.js"
+      "home.4b24f9f25fe8df187c1c.bundle.js"
     ],
     "main": [
       "main.bee292a5cc291abd1b0f.css",
-      "main.e39414b61aec998ab6c9.bundle.js"
+      "main.de6fd60e1d02a0eb867e.bundle.js"
     ],
     "vendors~contact": "vendors~contact.6cf127c886fec13432d7.bundle.js"
   },
@@ -143,8 +143,8 @@
       "emitted": true
     },
     {
-      "name": "explore.f8730bb8e2f5356b0c82.bundle.js",
-      "size": 15747,
+      "name": "explore.58eaddfc120307fcac48.bundle.js",
+      "size": 15808,
       "chunks": [
         4
       ],
@@ -154,8 +154,8 @@
       "emitted": true
     },
     {
-      "name": "explore.f8730bb8e2f5356b0c82.bundle.js.br",
-      "size": 4762,
+      "name": "explore.58eaddfc120307fcac48.bundle.js.br",
+      "size": 4775,
       "chunks": [
       ],
       "chunkNames": [
@@ -201,8 +201,8 @@
       "emitted": true
     },
     {
-      "name": "home.10d8abdc6357d5b289cd.bundle.js",
-      "size": 8467,
+      "name": "home.22666353fd4b6b80bbcf.css",
+      "size": 1793,
       "chunks": [
         5
       ],
@@ -212,8 +212,8 @@
       "emitted": true
     },
     {
-      "name": "home.22666353fd4b6b80bbcf.css",
-      "size": 1793,
+      "name": "home.4b24f9f25fe8df187c1c.bundle.js",
+      "size": 8545,
       "chunks": [
         5
       ],
@@ -405,7 +405,7 @@
       "emitted": true
     },
     {
-      "name": "main.e39414b61aec998ab6c9.bundle.js",
+      "name": "main.de6fd60e1d02a0eb867e.bundle.js",
       "size": 232722,
       "chunks": [
         6
@@ -416,8 +416,8 @@
       "emitted": true
     },
     {
-      "name": "main.e39414b61aec998ab6c9.bundle.js.br",
-      "size": 62847,
+      "name": "main.de6fd60e1d02a0eb867e.bundle.js.br",
+      "size": 62766,
       "chunks": [
       ],
       "chunkNames": [
@@ -483,7 +483,7 @@
       ],
       "assets": [
         "main.bee292a5cc291abd1b0f.css",
-        "main.e39414b61aec998ab6c9.bundle.js"
+        "main.de6fd60e1d02a0eb867e.bundle.js"
       ],
       "children": {
       },
@@ -499,7 +499,7 @@
       ],
       "assets": [
         "main.bee292a5cc291abd1b0f.css",
-        "main.e39414b61aec998ab6c9.bundle.js"
+        "main.de6fd60e1d02a0eb867e.bundle.js"
       ],
       "children": {
       },
@@ -518,7 +518,7 @@
         "about~contact~explore~home.dc35645d3ca5334a92a5.css",
         "about~contact~explore~home.d8f2f5bdcd3397fa815c.bundle.js",
         "home.22666353fd4b6b80bbcf.css",
-        "home.10d8abdc6357d5b289cd.bundle.js"
+        "home.4b24f9f25fe8df187c1c.bundle.js"
       ],
       "children": {
       },
@@ -534,7 +534,7 @@
         "about~contact~explore~home.dc35645d3ca5334a92a5.css",
         "about~contact~explore~home.d8f2f5bdcd3397fa815c.bundle.js",
         "explore.fd808bdef04f7b16acae.css",
-        "explore.f8730bb8e2f5356b0c82.bundle.js"
+        "explore.58eaddfc120307fcac48.bundle.js"
       ],
       "children": {
       },
@@ -624,9 +624,9 @@
           "chunks": [
             0
           ],
-          "issuer": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "issuerId": 117,
-          "issuerName": "./src/Components/Pages/About.js",
+          "issuer": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+          "issuerId": null,
+          "issuerName": "./src/Components/Pages/Home.js",
           "issuerPath": [
             {
               "id": 25,
@@ -639,9 +639,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 117,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+              "name": "./src/Components/Pages/Home.js"
             }
           ],
           "failed": false,
@@ -762,9 +762,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 117,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+              "name": "./src/Components/Pages/Home.js"
             },
             {
               "id": 61,
@@ -824,9 +824,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 117,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+              "name": "./src/Components/Pages/Home.js"
             },
             {
               "id": 61,
@@ -886,9 +886,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 117,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+              "name": "./src/Components/Pages/Home.js"
             },
             {
               "id": 61,
@@ -953,9 +953,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 117,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+              "name": "./src/Components/Pages/Home.js"
             },
             {
               "id": 61,
@@ -1020,9 +1020,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 117,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+              "name": "./src/Components/Pages/Home.js"
             },
             {
               "id": 61,
@@ -1087,9 +1087,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 117,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+              "name": "./src/Components/Pages/Home.js"
             },
             {
               "id": 61,
@@ -1148,9 +1148,9 @@
               "name": "./src/Components/App/App.js"
             },
             {
-              "id": 117,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-              "name": "./src/Components/Pages/About.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+              "name": "./src/Components/Pages/Home.js"
             },
             {
               "id": 61,
@@ -3841,15 +3841,15 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 25722,
+      "size": 25791,
       "names": [
         "explore"
       ],
       "files": [
         "explore.fd808bdef04f7b16acae.css",
-        "explore.f8730bb8e2f5356b0c82.bundle.js"
+        "explore.58eaddfc120307fcac48.bundle.js"
       ],
-      "hash": "2ba174e24d3105472ff4",
+      "hash": "e507c9731d346bea8672",
       "siblings": [
         0
       ],
@@ -3867,7 +3867,7 @@
           "name": "./src/Components/Card.js",
           "index": 72,
           "index2": 82,
-          "size": 1687,
+          "size": 1756,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -6286,15 +6286,15 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 12683,
+      "size": 12769,
       "names": [
         "home"
       ],
       "files": [
         "home.22666353fd4b6b80bbcf.css",
-        "home.10d8abdc6357d5b289cd.bundle.js"
+        "home.4b24f9f25fe8df187c1c.bundle.js"
       ],
-      "hash": "c3ab5e7a24a44de2874d",
+      "hash": "da0ad908a8fff1f4f422",
       "siblings": [
         0,
         1
@@ -6313,7 +6313,7 @@
           "name": "./src/Components/Card.js",
           "index": 72,
           "index2": 82,
-          "size": 1687,
+          "size": 1756,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -7615,7 +7615,7 @@
           "name": "./src/Components/Pages/Home.js + 4 modules",
           "index": 62,
           "index2": 112,
-          "size": 7414,
+          "size": 7431,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -7852,7 +7852,7 @@
               "name": "./src/Components/Tours/Tours.js",
               "index": 109,
               "index2": 108,
-              "size": 817,
+              "size": 834,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -8132,9 +8132,9 @@
       ],
       "files": [
         "main.bee292a5cc291abd1b0f.css",
-        "main.e39414b61aec998ab6c9.bundle.js"
+        "main.de6fd60e1d02a0eb867e.bundle.js"
       ],
-      "hash": "747219b154d8b5d12183",
+      "hash": "09a0b8ace215fea8e262",
       "siblings": [
       ],
       "parents": [
@@ -9295,7 +9295,7 @@
               "moduleName": "./src/Components/Card.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "27:48-53"
+              "loc": "27:98-103"
             },
             {
               "moduleId": 53,
@@ -11842,7 +11842,7 @@
               "moduleName": "./src/Components/Card.js",
               "type": "harmony import specifier",
               "userRequest": "react-router-dom",
-              "loc": "27:68-72"
+              "loc": "27:118-122"
             },
             {
               "moduleId": 61,
@@ -17991,7 +17991,7 @@
           "moduleName": "./src/Components/Card.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "27:48-53"
+          "loc": "27:98-103"
         },
         {
           "moduleId": 53,
@@ -20538,7 +20538,7 @@
           "moduleName": "./src/Components/Card.js",
           "type": "harmony import specifier",
           "userRequest": "react-router-dom",
-          "loc": "27:68-72"
+          "loc": "27:118-122"
         },
         {
           "moduleId": 61,
@@ -24990,7 +24990,7 @@
       "name": "./src/Components/Card.js",
       "index": 72,
       "index2": 82,
-      "size": 1687,
+      "size": 1756,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -25690,9 +25690,9 @@
       "chunks": [
         0
       ],
-      "issuer": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-      "issuerId": 117,
-      "issuerName": "./src/Components/Pages/About.js",
+      "issuer": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+      "issuerId": null,
+      "issuerName": "./src/Components/Pages/Home.js",
       "issuerPath": [
         {
           "id": 25,
@@ -25705,9 +25705,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 117,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+          "name": "./src/Components/Pages/Home.js"
         }
       ],
       "failed": false,
@@ -26665,9 +26665,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 117,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+          "name": "./src/Components/Pages/Home.js"
         },
         {
           "id": 61,
@@ -26727,9 +26727,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 117,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+          "name": "./src/Components/Pages/Home.js"
         },
         {
           "id": 61,
@@ -26789,9 +26789,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 117,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+          "name": "./src/Components/Pages/Home.js"
         },
         {
           "id": 61,
@@ -26856,9 +26856,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 117,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+          "name": "./src/Components/Pages/Home.js"
         },
         {
           "id": 61,
@@ -26923,9 +26923,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 117,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+          "name": "./src/Components/Pages/Home.js"
         },
         {
           "id": 61,
@@ -26990,9 +26990,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 117,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+          "name": "./src/Components/Pages/Home.js"
         },
         {
           "id": 61,
@@ -29660,7 +29660,7 @@
       "name": "./src/Components/Pages/Home.js + 4 modules",
       "index": 62,
       "index2": 112,
-      "size": 7414,
+      "size": 7431,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -29897,7 +29897,7 @@
           "name": "./src/Components/Tours/Tours.js",
           "index": 109,
           "index2": 108,
-          "size": 817,
+          "size": 834,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -31316,9 +31316,9 @@
           "name": "./src/Components/App/App.js"
         },
         {
-          "id": 117,
-          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\About.js",
-          "name": "./src/Components/Pages/About.js"
+          "id": null,
+          "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Home.js",
+          "name": "./src/Components/Pages/Home.js"
         },
         {
           "id": 61,
