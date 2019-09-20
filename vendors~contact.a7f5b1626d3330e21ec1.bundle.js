@@ -1,4 +1,4 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{111:function(e,t,n){(function(t){
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{111:function(e,t,n){(function(t){
 /**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
  * @version 1.15.0
