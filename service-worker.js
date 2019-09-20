@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.5fd63ae5881a2eb289c26d042f9fe0c5.js"
+  "precache-manifest.7bbbb1f1299e275553aea0202503ffe0.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -32,3 +32,4 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/\.(png|jpg|jpeg|svg)$/, new workbox.strategies.CacheFirst({ "cacheName":"images", plugins: [new workbox.expiration.Plugin({ maxEntries: 15, maxAgeSeconds: 604800, purgeOnQuotaError: false })] }), 'GET');
+workbox.routing.registerRoute(/https:\/\/fonts.googleapis.com\/css?family=Oxygen:300,400&display=swap/, new workbox.strategies.StaleWhileRevalidate({ plugins: [new workbox.cacheableResponse.Plugin({ statuses: [ 0, 200 ] })] }), 'GET');
