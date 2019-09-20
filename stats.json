@@ -3,12 +3,12 @@
   ],
   "warnings": [
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  vendors~contact.3e99657cae920c4b8fe1.bundle.js (256 KiB)",
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (389 KiB)\n      main.5d2f7c5ad8e11521ce1b.css\n      main.8c0b11d0124d2d689db7.bundle.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (389 KiB)\n      main.5d2f7c5ad8e11521ce1b.css\n      main.3033d568398b604447ed.bundle.js\n"
   ],
   "version": "4.39.3",
-  "hash": "8fefa5dc55c3ab42297c",
-  "time": 6937,
-  "builtAt": 1568994505865,
+  "hash": "2d87a75c7ec3074445be",
+  "time": 6847,
+  "builtAt": 1568994710329,
   "publicPath": "",
   "outputPath": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\dist",
   "assetsByChunkName": {
@@ -35,7 +35,7 @@
     ],
     "main": [
       "main.5d2f7c5ad8e11521ce1b.css",
-      "main.8c0b11d0124d2d689db7.bundle.js"
+      "main.3033d568398b604447ed.bundle.js"
     ],
     "vendors~contact": "vendors~contact.3e99657cae920c4b8fe1.bundle.js"
   },
@@ -394,6 +394,26 @@
       "emitted": true
     },
     {
+      "name": "main.3033d568398b604447ed.bundle.js",
+      "size": 232573,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "main.3033d568398b604447ed.bundle.js.br",
+      "size": 62775,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
       "name": "main.5d2f7c5ad8e11521ce1b.css",
       "size": 165573,
       "chunks": [
@@ -414,27 +434,7 @@
       "emitted": true
     },
     {
-      "name": "main.8c0b11d0124d2d689db7.bundle.js",
-      "size": 232574,
-      "chunks": [
-        6
-      ],
-      "chunkNames": [
-        "main"
-      ],
-      "emitted": true
-    },
-    {
-      "name": "main.8c0b11d0124d2d689db7.bundle.js.br",
-      "size": 62911,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "precache-manifest.9b75022d4c9ff4e49af3ac647a7c39ae.js",
+      "name": "precache-manifest.dbe2173a2ce92a8c3d21d90ac1a87942.js",
       "size": 1573,
       "chunks": [
       ],
@@ -510,7 +510,7 @@
       ],
       "assets": [
         "main.5d2f7c5ad8e11521ce1b.css",
-        "main.8c0b11d0124d2d689db7.bundle.js"
+        "main.3033d568398b604447ed.bundle.js"
       ],
       "children": {
       },
@@ -526,7 +526,7 @@
       ],
       "assets": [
         "main.5d2f7c5ad8e11521ce1b.css",
-        "main.8c0b11d0124d2d689db7.bundle.js"
+        "main.3033d568398b604447ed.bundle.js"
       ],
       "children": {
       },
@@ -8277,15 +8277,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 486088,
+      "size": 486087,
       "names": [
         "main"
       ],
       "files": [
         "main.5d2f7c5ad8e11521ce1b.css",
-        "main.8c0b11d0124d2d689db7.bundle.js"
+        "main.3033d568398b604447ed.bundle.js"
       ],
-      "hash": "5c0cd8f0a1e76888098c",
+      "hash": "5dbd5f29e58e1b4f2c67",
       "siblings": [
       ],
       "parents": [
@@ -8771,7 +8771,7 @@
               "moduleName": "./src/index.js + 3 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-46"
+              "loc": "1:0-26"
             },
             {
               "moduleId": 50,
@@ -8780,7 +8780,7 @@
               "moduleName": "./src/index.js + 3 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-26"
+              "loc": "1:0-46"
             },
             {
               "moduleId": 50,
@@ -16070,7 +16070,7 @@
           "name": "./src/index.js + 3 modules",
           "index": 0,
           "index2": 60,
-          "size": 8151,
+          "size": 8150,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -16118,7 +16118,7 @@
               "name": "./src/index.js",
               "index": 0,
               "index2": 60,
-              "size": 515,
+              "size": 514,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -17453,7 +17453,7 @@
           "moduleName": "./src/index.js + 3 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-26"
+          "loc": "1:0-46"
         },
         {
           "moduleId": 50,
@@ -17462,7 +17462,7 @@
           "moduleName": "./src/index.js + 3 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-46"
+          "loc": "1:0-26"
         },
         {
           "moduleId": 50,
@@ -24837,7 +24837,7 @@
       "name": "./src/index.js + 3 modules",
       "index": 0,
       "index2": 60,
-      "size": 8151,
+      "size": 8150,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -24885,7 +24885,7 @@
           "name": "./src/index.js",
           "index": 0,
           "index2": 60,
-          "size": 515,
+          "size": 514,
           "cacheable": true,
           "built": true,
           "optional": false,
