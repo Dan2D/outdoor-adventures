@@ -6,9 +6,9 @@
     "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (402 KiB)\n      main.e120b6608cdeab9e19a3.css\n      main.38135da135f08aa812c5.bundle.js\n"
   ],
   "version": "4.39.3",
-  "hash": "f03b58a7cdff8b89656d",
-  "time": 4581,
-  "builtAt": 1569338644242,
+  "hash": "39a42e532d6718a92b53",
+  "time": 4868,
+  "builtAt": 1569338915729,
   "publicPath": "",
   "outputPath": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\dist",
   "assetsByChunkName": {
@@ -385,7 +385,7 @@
     },
     {
       "name": "index.html",
-      "size": 1831,
+      "size": 1832,
       "chunks": [
       ],
       "chunkNames": [
@@ -433,7 +433,7 @@
       "emitted": true
     },
     {
-      "name": "precache-manifest.57689b01c36c3708b8ca4d3f5c4e55ab.js",
+      "name": "precache-manifest.336a667d4bb19f7303b89b520aa170f9.js",
       "size": 2286,
       "chunks": [
       ],
@@ -452,7 +452,7 @@
     },
     {
       "name": "site.webmanifest",
-      "size": 317,
+      "size": 299,
       "chunks": [
       ],
       "chunkNames": [
@@ -7209,7 +7209,7 @@
               "moduleName": "./src/index.js + 13 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-46"
+              "loc": "1:0-26"
             },
             {
               "moduleId": 51,
@@ -7218,7 +7218,7 @@
               "moduleName": "./src/index.js + 13 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-26"
+              "loc": "1:0-46"
             },
             {
               "moduleId": 51,
@@ -17658,34 +17658,34 @@
           "moduleName": "./src/index.js + 13 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-26"
-        },
-        {
-          "moduleId": 51,
-          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
-          "module": "./src/index.js + 13 modules",
-          "moduleName": "./src/index.js + 13 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-26"
-        },
-        {
-          "moduleId": 51,
-          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
-          "module": "./src/index.js + 13 modules",
-          "moduleName": "./src/index.js + 13 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-26"
-        },
-        {
-          "moduleId": 51,
-          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
-          "module": "./src/index.js + 13 modules",
-          "moduleName": "./src/index.js + 13 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
           "loc": "1:0-46"
+        },
+        {
+          "moduleId": 51,
+          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
+          "module": "./src/index.js + 13 modules",
+          "moduleName": "./src/index.js + 13 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 51,
+          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
+          "module": "./src/index.js + 13 modules",
+          "moduleName": "./src/index.js + 13 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 51,
+          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
+          "module": "./src/index.js + 13 modules",
+          "moduleName": "./src/index.js + 13 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-26"
         },
         {
           "moduleId": 51,
@@ -33849,7 +33849,7 @@
       "assets": [
         {
           "name": "index.html",
-          "size": 547396,
+          "size": 547397,
           "chunks": [
             0
           ],
@@ -33893,13 +33893,13 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 543446,
+          "size": 543447,
           "names": [
           ],
           "files": [
             "index.html"
           ],
-          "hash": "f481e508dcbc1e9ba7f0",
+          "hash": "d8d3cd335bc3a6a59ffb",
           "siblings": [
           ],
           "parents": [
@@ -33915,7 +33915,7 @@
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
               "index": 0,
               "index2": 3,
-              "size": 1965,
+              "size": 1966,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -34122,7 +34122,7 @@
           "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
           "index": 0,
           "index2": 3,
-          "size": 1965,
+          "size": 1966,
           "cacheable": true,
           "built": true,
           "optional": false,
