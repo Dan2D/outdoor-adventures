@@ -33,7 +33,7 @@ function Explore(props) {
         })
 
     return (
-        <div className='explore-container'>
+        <div className='explore-container' style={{minWidth: '100vw'}}>
             <Hero page='explore' title='Explore' text={`- Grab Your Gear ${'\n'} Explore The Sites -`} />
             <div className='rental-tiles-container'>
                 <h2 className='rental-tiles__title'>Rentals</h2>

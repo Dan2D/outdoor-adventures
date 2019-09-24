@@ -10,8 +10,10 @@ function Contact() {
     return (
         <div className='contact-container'>
             <Hero page='contact' title='Contact &amp; Info' text='Reach Out and Say Hello!' />
-            <ContactForm />
-            <FAQS />
+            <div className='contact-bg'>
+                <ContactForm />
+                <FAQS />
+            </div>
         </div>
     )
 }

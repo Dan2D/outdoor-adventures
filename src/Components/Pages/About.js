@@ -48,7 +48,7 @@ function About() {
         ]
       };
     return (
-        <div className='about-container  '>
+        <div className='about-container' style={{minWidth: '100vw'}}>
             <Hero page='about' title='About' text='Who is Outdoor Adventures?'/>
             <div className='about-section' >
                 <img className='about__story-img' src={require("../../images/story-bg.jpg")} alt='kayak rental building' />

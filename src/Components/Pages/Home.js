@@ -11,13 +11,13 @@ import "./Home.scss";
 function Home(props) {
     window.scrollTo(0,0);
     return (
-        <>
+        <div className='home-container'>
             <Hero page="home" text={`Come On In,${'\n'}The Water's Fine!`}/>
             <Categories />
             <Blurb />
             <Tours />
             <Reviews />
-        </>
+        </div>
     )
 }
 

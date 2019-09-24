@@ -23,3 +23,47 @@ a.btn:hover, button.btn:hover {
 .load-fill {
     min-height: 100vh;
 }
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.home-container,
+.explore-container,
+.about-container,
+.contact-container {
+  min-width: 100vw;
+  padding-bottom: 100px;
+}
+
+
+  .slide-enter,
+  .slide-appear {
+    position: absolute;
+    transform: translateX(100vw);
+    will-change: transform;
+  }
+  
+  
+  .slide-enter-active,
+  .slide-appear-active {
+    position: absolute;
+    transform: translateX(0);
+    transition: all 1000ms ease 200ms;
+    will-change: transform;
+  }
+  
+  
+  .slide-exit {
+    position: absolute;
+    transform: translateX(0);
+    will-change: transform;
+  }
+  
+  .slide-exit-active {
+    position: absolute;
+    transform: translateX(-100vw);
+    transition:  all 1000ms ease 200ms;
+    will-change: transform;
+  }

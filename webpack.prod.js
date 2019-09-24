@@ -2,6 +2,7 @@ const path = require('path');
 const common = require("./webpack.common");
 const merge = require('webpack-merge');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
+const WorkboxPlugin = require('workbox-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ImageMinWebpackPlugin = require('imagemin-webpack-plugin').default;
 const imageminMozjpeg = require('imagemin-mozjpeg');
@@ -31,6 +32,29 @@ const BUNDLE_ANALYZER = new BundleAnalyzerPlugin({
     generateStatsFile: true,
     statsOptions: { source: false }
 });
+const WORKBOX_PLUGIN = new WorkboxPlugin.GenerateSW({
+    exclude: [/\.(?:png|jpg|jpeg|svg)$/],   
+    runtimeCaching: [{
+        urlPattern: /\.(png|jpg|jpeg|svg)$/,
+        handler: 'CacheFirst',
+        options: {
+            cacheName: 'images',
+            expiration: {
+                maxEntries: 15,
+                maxAgeSeconds: (60 * 60 * 24 * 7)
+            }
+        }
+    },
+    {
+        urlPattern: new RegExp('https://fonts.googleapis.com/css?family=Oxygen:300,400&display=swap'),
+        handler: 'StaleWhileRevalidate',
+        options: {
+            cacheableResponse: {
+              statuses: [0, 200]
+            }
+          }
+    }]
+})
 
 module.exports = merge(common, {
     mode: "production",
@@ -39,7 +63,21 @@ module.exports = merge(common, {
         filename: 'main.[contenthash].bundle.js',
         chunkFilename: '[name].[contenthash].bundle.js'
     },
-    plugins: [new CleanWebpackPlugin(), COPY_PLUGIN, MINI_CSS_PLUGIN ,BROTLI_PLUGIN, IMAGE_MIN_PLUGIN, BUNDLE_ANALYZER],
+    optimization: {
+        splitChunks: {
+            cacheGroups: {
+                common: {
+                    name: 'common',
+                    minChunks: 2,
+                    chunks: 'async',
+                    reuseExistingChunk: true,
+                    priority: 10,
+                    enforce: true
+                }
+            }
+        }
+    },
+    plugins: [new CleanWebpackPlugin(), COPY_PLUGIN, MINI_CSS_PLUGIN ,BROTLI_PLUGIN, IMAGE_MIN_PLUGIN, WORKBOX_PLUGIN, BUNDLE_ANALYZER],
     module: {
         rules: [
             {

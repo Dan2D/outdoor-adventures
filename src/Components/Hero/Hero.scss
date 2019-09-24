@@ -2,6 +2,7 @@
     &-container {
         position: relative;
         height: 75vw;
+        width: 100vw;
         max-height: 430px;
         z-index: 1;
         &--home {
@@ -89,7 +90,6 @@
         &__mtn-bg {
             display: block;
             position: absolute;
-            right: 0;
             min-width: 100vw;
             min-height: 430px;
         }
@@ -178,6 +178,52 @@
 }
 
 @keyframes sky-B {
+    0% {
+        opacity: 1;
+        transform: translateX(0) scaleX(-1);
+    }
+    91% {
+        opacity: 1;
+        transform: translateX(-410vw) scaleX(-1);
+    }
+    92%{
+        opacity:0;
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(0) scaleX(-1);
+    }
+   }
+
+
+   @-webkit-keyframes sky-A {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    45% {
+        opacity: 1;
+        transform: translateX(-200vw);
+    }
+    46%{
+        opacity:0;
+    }
+    54% {
+        transform: translateX(-205vw);
+    }
+    55%{
+        opacity: 0;
+        transform: translateX(200vw);
+    }
+    56%{
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+    }
+   }
+
+   @-webkit-keyframes sky-B {
     0% {
         opacity: 1;
         transform: translateX(0) scaleX(-1);

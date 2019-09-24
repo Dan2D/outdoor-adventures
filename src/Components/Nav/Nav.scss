@@ -43,7 +43,6 @@
             transform: translateX(10px);
             transition: all ease 1200ms;
             & .nav-lnk {
-                margin-right: 10px;
                 z-index: 2;
                 &:hover {
                     color: var(--color-cyan-hover);

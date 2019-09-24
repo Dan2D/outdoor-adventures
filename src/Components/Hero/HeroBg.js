@@ -4,7 +4,6 @@ import SVG from 'react-inlinesvg';
 class HeroBg extends Component {
 
     render() {
-        console.log("Test")
         return (
             <div className='hero-bg'>
                 <SVG className='hero__mtn-bg' src={require("../../images/mtn-bg.svg")} preserveAspectRatio="xMidYMin slice" />

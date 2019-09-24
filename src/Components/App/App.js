@@ -1,5 +1,6 @@
 import React, {Suspense, lazy} from 'react';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
+import {TransitionGroup, CSSTransition} from 'react-transition-group';
 
 import Nav from "../Nav/Nav";
 import HeroBg from "../Hero/HeroBg";
@@ -14,17 +15,34 @@ const Contact = lazy(() => import(/*webpackChunkName: "contact"*/ "../Pages/Cont
 function App() {
     return (
         <Router>
+            <div className='page-container'>
             <Nav />
             <HeroBg />
-                <Switch>
-                    <Suspense fallback={<div className='load-fill' />}>
-                        <Route exact path="/" component={Home} />
-                        <Route path="/explore" component={Explore} />
-                        <Route path="/about" component={About} />
-                        <Route path="/contact" component={Contact} />
-                    </Suspense>
-                </Switch>
-            <Footer />
+            <Route render={({location}) => {
+                return (
+                <TransitionGroup>
+                    <CSSTransition
+                    key={location.pathname}
+                    timeout={1200}
+                    unmountOnExit
+                    classNames="slide">
+                        <div className='transition-container'>     
+                            <Suspense fallback={<div className='load-fill' />}>            
+                                <Switch location={location}>
+                                    <Route exact path="/" component={Home} />
+                                    <Route path="/explore" component={Explore} />
+                                    <Route path="/about" component={About} />
+                                    <Route path="/contact" component={Contact} />
+                                </Switch>
+                            </Suspense>
+                            <Footer />
+                        </div> 
+                    </CSSTransition>
+                </TransitionGroup>
+                )
+            }}/>
+            
+            </div>
         </Router>
     )
 }

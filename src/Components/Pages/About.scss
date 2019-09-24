@@ -1,4 +1,8 @@
 .about {
+    &-container {
+        min-width: 100vw;
+        padding-bottom: 100px;
+    }
     &-section {
         padding: 20px;
         & p, h3 {
@@ -12,6 +16,7 @@
     &-slider-container {
         display:flex;
         justify-content: center;
+        width: 100vw;
         padding: 20px 0;
         & .slick-slide div,
          img.slide-img {
