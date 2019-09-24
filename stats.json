@@ -7,8 +7,8 @@
   ],
   "version": "4.39.3",
   "hash": "39a42e532d6718a92b53",
-  "time": 4868,
-  "builtAt": 1569338915729,
+  "time": 5159,
+  "builtAt": 1569340740236,
   "publicPath": "",
   "outputPath": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\dist",
   "assetsByChunkName": {
@@ -7200,6 +7200,24 @@
               "moduleName": "./src/index.js + 13 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
+              "loc": "1:0-63"
+            },
+            {
+              "moduleId": 51,
+              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
+              "module": "./src/index.js + 13 modules",
+              "moduleName": "./src/index.js + 13 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 51,
+              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
+              "module": "./src/index.js + 13 modules",
+              "moduleName": "./src/index.js + 13 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
               "loc": "1:0-26"
             },
             {
@@ -7219,24 +7237,6 @@
               "type": "harmony side effect evaluation",
               "userRequest": "react",
               "loc": "1:0-46"
-            },
-            {
-              "moduleId": 51,
-              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
-              "module": "./src/index.js + 13 modules",
-              "moduleName": "./src/index.js + 13 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-26"
-            },
-            {
-              "moduleId": 51,
-              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
-              "module": "./src/index.js + 13 modules",
-              "moduleName": "./src/index.js + 13 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-63"
             },
             {
               "moduleId": 51,
@@ -16099,9 +16099,9 @@
               "prefetched": false,
               "chunks": [
               ],
-              "issuer": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\react-transition-group\\esm\\SwitchTransition.js",
-              "issuerId": 124,
-              "issuerName": "./node_modules/react-transition-group/esm/SwitchTransition.js",
+              "issuer": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\react-transition-group\\esm\\TransitionGroup.js",
+              "issuerId": null,
+              "issuerName": "./node_modules/react-transition-group/esm/TransitionGroup.js",
               "issuerPath": [
                 {
                   "id": null,
@@ -16119,9 +16119,9 @@
                   "name": "./node_modules/react-transition-group/esm/index.js"
                 },
                 {
-                  "id": 124,
-                  "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\react-transition-group\\esm\\SwitchTransition.js",
-                  "name": "./node_modules/react-transition-group/esm/SwitchTransition.js"
+                  "id": null,
+                  "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\react-transition-group\\esm\\TransitionGroup.js",
+                  "name": "./node_modules/react-transition-group/esm/TransitionGroup.js"
                 }
               ],
               "failed": false,
@@ -17658,24 +17658,6 @@
           "moduleName": "./src/index.js + 13 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-46"
-        },
-        {
-          "moduleId": 51,
-          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
-          "module": "./src/index.js + 13 modules",
-          "moduleName": "./src/index.js + 13 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-26"
-        },
-        {
-          "moduleId": 51,
-          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
-          "module": "./src/index.js + 13 modules",
-          "moduleName": "./src/index.js + 13 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
           "loc": "1:0-26"
         },
         {
@@ -17695,6 +17677,24 @@
           "type": "harmony side effect evaluation",
           "userRequest": "react",
           "loc": "1:0-63"
+        },
+        {
+          "moduleId": 51,
+          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
+          "module": "./src/index.js + 13 modules",
+          "moduleName": "./src/index.js + 13 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 51,
+          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
+          "module": "./src/index.js + 13 modules",
+          "moduleName": "./src/index.js + 13 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-46"
         },
         {
           "moduleId": 51,
@@ -26715,9 +26715,9 @@
           "prefetched": false,
           "chunks": [
           ],
-          "issuer": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\react-transition-group\\esm\\SwitchTransition.js",
-          "issuerId": 124,
-          "issuerName": "./node_modules/react-transition-group/esm/SwitchTransition.js",
+          "issuer": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\react-transition-group\\esm\\TransitionGroup.js",
+          "issuerId": null,
+          "issuerName": "./node_modules/react-transition-group/esm/TransitionGroup.js",
           "issuerPath": [
             {
               "id": null,
@@ -26735,9 +26735,9 @@
               "name": "./node_modules/react-transition-group/esm/index.js"
             },
             {
-              "id": 124,
-              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\react-transition-group\\esm\\SwitchTransition.js",
-              "name": "./node_modules/react-transition-group/esm/SwitchTransition.js"
+              "id": null,
+              "identifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\react-transition-group\\esm\\TransitionGroup.js",
+              "name": "./node_modules/react-transition-group/esm/TransitionGroup.js"
             }
           ],
           "failed": false,
