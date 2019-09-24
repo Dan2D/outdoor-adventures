@@ -56,7 +56,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "home.8b25cb8701891455896e.css"
   },
   {
-    "revision": "6c01346f0c6b56a1444fd755a1a251d0",
+    "revision": "bd1f5f451fa8557bef02a66befba71f0",
     "url": "index.html"
   },
   {
@@ -76,7 +76,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "main.e120b6608cdeab9e19a3.css.br"
   },
   {
-    "revision": "6b2a2aec86b1deebb775986c5c04a346",
+    "revision": "5bbc66424844f7bb5316d6974c472c8f",
     "url": "site.webmanifest"
   },
   {
