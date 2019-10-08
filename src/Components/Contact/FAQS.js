@@ -8,9 +8,13 @@ function FAQS() {
 
     function handleClick(target) {
         if (target.classList.contains('up')) {
-            return target.classList.remove('up');
+            target.classList.remove('up');
         }
-        return target.classList.add('up');
+        else {
+            target.classList.add('up');
+        } 
+        target.style.pointerEvents = "none";
+        return setTimeout(() => {target.style.pointerEvents = "all";}, 700);
     }
 
     return (
