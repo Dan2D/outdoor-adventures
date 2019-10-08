@@ -3,12 +3,12 @@
   ],
   "warnings": [
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  vendors~contact.ab23c5bc86e52014473c.bundle.js (256 KiB)",
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (402 KiB)\n      main.e120b6608cdeab9e19a3.css\n      main.38135da135f08aa812c5.bundle.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (402 KiB)\n      main.e120b6608cdeab9e19a3.css\n      main.c492d1b400fbe99a989c.bundle.js\n"
   ],
   "version": "4.39.3",
-  "hash": "39a42e532d6718a92b53",
-  "time": 5159,
-  "builtAt": 1569340740236,
+  "hash": "fa8f7e886e65be5bf215",
+  "time": 7841,
+  "builtAt": 1570569858371,
   "publicPath": "",
   "outputPath": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\dist",
   "assetsByChunkName": {
@@ -21,8 +21,8 @@
       "about.118efa85b6eaf899634b.bundle.js"
     ],
     "contact": [
-      "contact.f4ee98bfb4f7881e6657.css",
-      "contact.fb57b7026f236c0c5f1d.bundle.js"
+      "contact.1dbf58b012cc45439a23.css",
+      "contact.17a6e059ae636231f3b0.bundle.js"
     ],
     "explore": [
       "explore.fd808bdef04f7b16acae.css",
@@ -34,7 +34,7 @@
     ],
     "main": [
       "main.e120b6608cdeab9e19a3.css",
-      "main.38135da135f08aa812c5.bundle.js"
+      "main.c492d1b400fbe99a989c.bundle.js"
     ],
     "vendors~contact": "vendors~contact.ab23c5bc86e52014473c.bundle.js"
   },
@@ -120,8 +120,8 @@
       "emitted": true
     },
     {
-      "name": "contact.f4ee98bfb4f7881e6657.css",
-      "size": 1053,
+      "name": "contact.17a6e059ae636231f3b0.bundle.js",
+      "size": 6895,
       "chunks": [
         2
       ],
@@ -131,8 +131,8 @@
       "emitted": true
     },
     {
-      "name": "contact.fb57b7026f236c0c5f1d.bundle.js",
-      "size": 6808,
+      "name": "contact.1dbf58b012cc45439a23.css",
+      "size": 1110,
       "chunks": [
         2
       ],
@@ -393,7 +393,7 @@
       "emitted": true
     },
     {
-      "name": "main.38135da135f08aa812c5.bundle.js",
+      "name": "main.c492d1b400fbe99a989c.bundle.js",
       "size": 245350,
       "chunks": [
         5
@@ -404,8 +404,8 @@
       "emitted": true
     },
     {
-      "name": "main.38135da135f08aa812c5.bundle.js.br",
-      "size": 65984,
+      "name": "main.c492d1b400fbe99a989c.bundle.js.br",
+      "size": 65905,
       "chunks": [
       ],
       "chunkNames": [
@@ -433,7 +433,7 @@
       "emitted": true
     },
     {
-      "name": "precache-manifest.336a667d4bb19f7303b89b520aa170f9.js",
+      "name": "precache-manifest.de6d2576b933b314ae6139ad767ec9f2.js",
       "size": 2286,
       "chunks": [
       ],
@@ -489,7 +489,7 @@
       ],
       "assets": [
         "main.e120b6608cdeab9e19a3.css",
-        "main.38135da135f08aa812c5.bundle.js"
+        "main.c492d1b400fbe99a989c.bundle.js"
       ],
       "children": {
       },
@@ -505,7 +505,7 @@
       ],
       "assets": [
         "main.e120b6608cdeab9e19a3.css",
-        "main.38135da135f08aa812c5.bundle.js"
+        "main.c492d1b400fbe99a989c.bundle.js"
       ],
       "children": {
       },
@@ -571,8 +571,8 @@
         "common.c958a6cb39ef672e005f.css",
         "common.d870b371371bb74d8a2a.bundle.js",
         "vendors~contact.ab23c5bc86e52014473c.bundle.js",
-        "contact.f4ee98bfb4f7881e6657.css",
-        "contact.fb57b7026f236c0c5f1d.bundle.js"
+        "contact.1dbf58b012cc45439a23.css",
+        "contact.17a6e059ae636231f3b0.bundle.js"
       ],
       "children": {
       },
@@ -3931,15 +3931,15 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 9713,
+      "size": 9903,
       "names": [
         "contact"
       ],
       "files": [
-        "contact.f4ee98bfb4f7881e6657.css",
-        "contact.fb57b7026f236c0c5f1d.bundle.js"
+        "contact.1dbf58b012cc45439a23.css",
+        "contact.17a6e059ae636231f3b0.bundle.js"
       ],
-      "hash": "0b3be571de74fe6f968a",
+      "hash": "af4096c1dfa2d4f53db5",
       "siblings": [
         0,
         6
@@ -4004,7 +4004,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "cjs require",
               "userRequest": "../../images/icons/arrow-icon.svg",
-              "loc": "37:9-53"
+              "loc": "42:9-53"
             },
             {
               "moduleId": 122,
@@ -4013,7 +4013,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "cjs require",
               "userRequest": "../../images/icons/arrow-icon.svg",
-              "loc": "65:9-53"
+              "loc": "70:9-53"
             },
             {
               "moduleId": 122,
@@ -4022,7 +4022,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "cjs require",
               "userRequest": "../../images/icons/arrow-icon.svg",
-              "loc": "93:9-53"
+              "loc": "98:9-53"
             },
             {
               "moduleId": 122,
@@ -4031,7 +4031,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "cjs require",
               "userRequest": "../../images/icons/arrow-icon.svg",
-              "loc": "121:9-53"
+              "loc": "126:9-53"
             }
           ],
           "usedExports": true,
@@ -4104,7 +4104,7 @@
           "name": "./src/Components/Pages/Contact.js + 2 modules",
           "index": 146,
           "index2": 156,
-          "size": 8254,
+          "size": 8387,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4270,7 +4270,7 @@
               "name": "./src/Components/Contact/FAQS.js",
               "index": 148,
               "index2": 153,
-              "size": 5883,
+              "size": 6016,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -4341,7 +4341,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Pages/Contact.scss",
           "index": 156,
           "index2": 154,
-          "size": 1052,
+          "size": 1109,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -6713,9 +6713,9 @@
       ],
       "files": [
         "main.e120b6608cdeab9e19a3.css",
-        "main.38135da135f08aa812c5.bundle.js"
+        "main.c492d1b400fbe99a989c.bundle.js"
       ],
-      "hash": "32814fc9f403ae2b2846",
+      "hash": "5e0f2c063b8114259a75",
       "siblings": [
       ],
       "parents": [
@@ -7200,33 +7200,6 @@
               "moduleName": "./src/index.js + 13 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-63"
-            },
-            {
-              "moduleId": 51,
-              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
-              "module": "./src/index.js + 13 modules",
-              "moduleName": "./src/index.js + 13 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-26"
-            },
-            {
-              "moduleId": 51,
-              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
-              "module": "./src/index.js + 13 modules",
-              "moduleName": "./src/index.js + 13 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-26"
-            },
-            {
-              "moduleId": 51,
-              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
-              "module": "./src/index.js + 13 modules",
-              "moduleName": "./src/index.js + 13 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
               "loc": "1:0-26"
             },
             {
@@ -7237,6 +7210,33 @@
               "type": "harmony side effect evaluation",
               "userRequest": "react",
               "loc": "1:0-46"
+            },
+            {
+              "moduleId": 51,
+              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
+              "module": "./src/index.js + 13 modules",
+              "moduleName": "./src/index.js + 13 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 51,
+              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
+              "module": "./src/index.js + 13 modules",
+              "moduleName": "./src/index.js + 13 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 51,
+              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
+              "module": "./src/index.js + 13 modules",
+              "moduleName": "./src/index.js + 13 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-63"
             },
             {
               "moduleId": 51,
@@ -9558,15 +9558,6 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "16:9-14"
-            },
-            {
-              "moduleId": 122,
-              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
-              "module": "./src/Components/Pages/Contact.js + 2 modules",
-              "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
               "loc": "17:5-10"
             },
             {
@@ -9585,24 +9576,6 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "18:5-10"
-            },
-            {
-              "moduleId": 122,
-              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
-              "module": "./src/Components/Pages/Contact.js + 2 modules",
-              "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
-              "loc": "18:68-73"
-            },
-            {
-              "moduleId": 122,
-              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
-              "module": "./src/Components/Pages/Contact.js + 2 modules",
-              "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
               "loc": "20:7-12"
             },
             {
@@ -9612,7 +9585,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "21:5-10"
+              "loc": "21:9-14"
             },
             {
               "moduleId": 122,
@@ -9639,6 +9612,15 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
+              "loc": "23:68-73"
+            },
+            {
+              "moduleId": 122,
+              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
+              "module": "./src/Components/Pages/Contact.js + 2 modules",
+              "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
               "loc": "24:15-20"
             },
             {
@@ -9657,7 +9639,16 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "28:33-38"
+              "loc": "28:5-10"
+            },
+            {
+              "moduleId": 122,
+              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
+              "module": "./src/Components/Pages/Contact.js + 2 modules",
+              "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "31:5-10"
             },
             {
               "moduleId": 122,
@@ -9675,7 +9666,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "34:5-10"
+              "loc": "33:33-38"
             },
             {
               "moduleId": 122,
@@ -9684,7 +9675,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "35:5-10"
+              "loc": "34:5-10"
             },
             {
               "moduleId": 122,
@@ -9702,7 +9693,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "42:8-13"
+              "loc": "40:5-10"
             },
             {
               "moduleId": 122,
@@ -9729,7 +9720,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "47:5-10"
+              "loc": "47:8-13"
             },
             {
               "moduleId": 122,
@@ -9747,25 +9738,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "49:186-191"
-            },
-            {
-              "moduleId": 122,
-              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
-              "module": "./src/Components/Pages/Contact.js + 2 modules",
-              "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
-              "loc": "51:5-10"
-            },
-            {
-              "moduleId": 122,
-              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
-              "module": "./src/Components/Pages/Contact.js + 2 modules",
-              "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
-              "loc": "54:5-10"
+              "loc": "52:5-10"
             },
             {
               "moduleId": 122,
@@ -9783,7 +9756,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "56:40-45"
+              "loc": "54:186-191"
             },
             {
               "moduleId": 122,
@@ -9792,7 +9765,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "63:5-10"
+              "loc": "56:5-10"
             },
             {
               "moduleId": 122,
@@ -9801,7 +9774,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "70:8-13"
+              "loc": "59:5-10"
             },
             {
               "moduleId": 122,
@@ -9810,7 +9783,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "75:5-10"
+              "loc": "61:40-45"
             },
             {
               "moduleId": 122,
@@ -9819,7 +9792,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "77:116-121"
+              "loc": "68:5-10"
             },
             {
               "moduleId": 122,
@@ -9828,7 +9801,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "79:5-10"
+              "loc": "75:8-13"
             },
             {
               "moduleId": 122,
@@ -9837,7 +9810,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "82:5-10"
+              "loc": "80:5-10"
             },
             {
               "moduleId": 122,
@@ -9846,7 +9819,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "84:55-60"
+              "loc": "82:116-121"
             },
             {
               "moduleId": 122,
@@ -9855,7 +9828,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "91:5-10"
+              "loc": "84:5-10"
             },
             {
               "moduleId": 122,
@@ -9864,7 +9837,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "98:8-13"
+              "loc": "87:5-10"
             },
             {
               "moduleId": 122,
@@ -9873,7 +9846,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "103:5-10"
+              "loc": "89:55-60"
             },
             {
               "moduleId": 122,
@@ -9882,7 +9855,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "105:146-151"
+              "loc": "96:5-10"
             },
             {
               "moduleId": 122,
@@ -9891,7 +9864,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "107:5-10"
+              "loc": "103:8-13"
             },
             {
               "moduleId": 122,
@@ -9900,7 +9873,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "110:5-10"
+              "loc": "108:5-10"
             },
             {
               "moduleId": 122,
@@ -9909,7 +9882,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "112:36-41"
+              "loc": "110:146-151"
             },
             {
               "moduleId": 122,
@@ -9918,7 +9891,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "119:5-10"
+              "loc": "112:5-10"
             },
             {
               "moduleId": 122,
@@ -9927,7 +9900,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "126:8-13"
+              "loc": "115:5-10"
             },
             {
               "moduleId": 122,
@@ -9936,7 +9909,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "131:5-10"
+              "loc": "117:36-41"
             },
             {
               "moduleId": 122,
@@ -9945,7 +9918,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "133:5-10"
+              "loc": "124:5-10"
             },
             {
               "moduleId": 122,
@@ -9954,7 +9927,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "133:37-42"
+              "loc": "131:8-13"
             },
             {
               "moduleId": 122,
@@ -9963,7 +9936,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "133:167-172"
+              "loc": "136:5-10"
             },
             {
               "moduleId": 122,
@@ -9972,7 +9945,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "133:467-472"
+              "loc": "138:5-10"
             },
             {
               "moduleId": 122,
@@ -9981,7 +9954,34 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "133:917-922"
+              "loc": "138:37-42"
+            },
+            {
+              "moduleId": 122,
+              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
+              "module": "./src/Components/Pages/Contact.js + 2 modules",
+              "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "138:167-172"
+            },
+            {
+              "moduleId": 122,
+              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
+              "module": "./src/Components/Pages/Contact.js + 2 modules",
+              "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "138:467-472"
+            },
+            {
+              "moduleId": 122,
+              "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
+              "module": "./src/Components/Pages/Contact.js + 2 modules",
+              "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "138:917-922"
             },
             {
               "moduleId": 123,
@@ -10755,7 +10755,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-inlinesvg",
-              "loc": "35:25-28"
+              "loc": "40:25-28"
             },
             {
               "moduleId": 122,
@@ -10764,7 +10764,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-inlinesvg",
-              "loc": "63:25-28"
+              "loc": "68:25-28"
             },
             {
               "moduleId": 122,
@@ -10773,7 +10773,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-inlinesvg",
-              "loc": "91:25-28"
+              "loc": "96:25-28"
             },
             {
               "moduleId": 122,
@@ -10782,7 +10782,7 @@
               "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-inlinesvg",
-              "loc": "119:25-28"
+              "loc": "124:25-28"
             }
           ],
           "usedExports": [
@@ -17676,15 +17676,6 @@
           "moduleName": "./src/index.js + 13 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-63"
-        },
-        {
-          "moduleId": 51,
-          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
-          "module": "./src/index.js + 13 modules",
-          "moduleName": "./src/index.js + 13 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
           "loc": "1:0-26"
         },
         {
@@ -17695,6 +17686,15 @@
           "type": "harmony side effect evaluation",
           "userRequest": "react",
           "loc": "1:0-46"
+        },
+        {
+          "moduleId": 51,
+          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\index.js 88c170a5eed4b23fcc554605e6c0e029",
+          "module": "./src/index.js + 13 modules",
+          "moduleName": "./src/index.js + 13 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-63"
         },
         {
           "moduleId": 51,
@@ -20016,15 +20016,6 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "16:9-14"
-        },
-        {
-          "moduleId": 122,
-          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
-          "module": "./src/Components/Pages/Contact.js + 2 modules",
-          "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
           "loc": "17:5-10"
         },
         {
@@ -20043,24 +20034,6 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "18:5-10"
-        },
-        {
-          "moduleId": 122,
-          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
-          "module": "./src/Components/Pages/Contact.js + 2 modules",
-          "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
-          "loc": "18:68-73"
-        },
-        {
-          "moduleId": 122,
-          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
-          "module": "./src/Components/Pages/Contact.js + 2 modules",
-          "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
           "loc": "20:7-12"
         },
         {
@@ -20070,7 +20043,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "21:5-10"
+          "loc": "21:9-14"
         },
         {
           "moduleId": 122,
@@ -20097,6 +20070,15 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
+          "loc": "23:68-73"
+        },
+        {
+          "moduleId": 122,
+          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
+          "module": "./src/Components/Pages/Contact.js + 2 modules",
+          "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
           "loc": "24:15-20"
         },
         {
@@ -20115,7 +20097,16 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "28:33-38"
+          "loc": "28:5-10"
+        },
+        {
+          "moduleId": 122,
+          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
+          "module": "./src/Components/Pages/Contact.js + 2 modules",
+          "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "31:5-10"
         },
         {
           "moduleId": 122,
@@ -20133,7 +20124,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "34:5-10"
+          "loc": "33:33-38"
         },
         {
           "moduleId": 122,
@@ -20142,7 +20133,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "35:5-10"
+          "loc": "34:5-10"
         },
         {
           "moduleId": 122,
@@ -20160,7 +20151,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "42:8-13"
+          "loc": "40:5-10"
         },
         {
           "moduleId": 122,
@@ -20187,7 +20178,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "47:5-10"
+          "loc": "47:8-13"
         },
         {
           "moduleId": 122,
@@ -20205,25 +20196,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "49:186-191"
-        },
-        {
-          "moduleId": 122,
-          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
-          "module": "./src/Components/Pages/Contact.js + 2 modules",
-          "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
-          "loc": "51:5-10"
-        },
-        {
-          "moduleId": 122,
-          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
-          "module": "./src/Components/Pages/Contact.js + 2 modules",
-          "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
-          "loc": "54:5-10"
+          "loc": "52:5-10"
         },
         {
           "moduleId": 122,
@@ -20241,7 +20214,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "56:40-45"
+          "loc": "54:186-191"
         },
         {
           "moduleId": 122,
@@ -20250,7 +20223,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "63:5-10"
+          "loc": "56:5-10"
         },
         {
           "moduleId": 122,
@@ -20259,7 +20232,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "70:8-13"
+          "loc": "59:5-10"
         },
         {
           "moduleId": 122,
@@ -20268,7 +20241,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "75:5-10"
+          "loc": "61:40-45"
         },
         {
           "moduleId": 122,
@@ -20277,7 +20250,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "77:116-121"
+          "loc": "68:5-10"
         },
         {
           "moduleId": 122,
@@ -20286,7 +20259,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "79:5-10"
+          "loc": "75:8-13"
         },
         {
           "moduleId": 122,
@@ -20295,7 +20268,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "82:5-10"
+          "loc": "80:5-10"
         },
         {
           "moduleId": 122,
@@ -20304,7 +20277,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "84:55-60"
+          "loc": "82:116-121"
         },
         {
           "moduleId": 122,
@@ -20313,7 +20286,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "91:5-10"
+          "loc": "84:5-10"
         },
         {
           "moduleId": 122,
@@ -20322,7 +20295,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "98:8-13"
+          "loc": "87:5-10"
         },
         {
           "moduleId": 122,
@@ -20331,7 +20304,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "103:5-10"
+          "loc": "89:55-60"
         },
         {
           "moduleId": 122,
@@ -20340,7 +20313,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "105:146-151"
+          "loc": "96:5-10"
         },
         {
           "moduleId": 122,
@@ -20349,7 +20322,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "107:5-10"
+          "loc": "103:8-13"
         },
         {
           "moduleId": 122,
@@ -20358,7 +20331,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "110:5-10"
+          "loc": "108:5-10"
         },
         {
           "moduleId": 122,
@@ -20367,7 +20340,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "112:36-41"
+          "loc": "110:146-151"
         },
         {
           "moduleId": 122,
@@ -20376,7 +20349,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "119:5-10"
+          "loc": "112:5-10"
         },
         {
           "moduleId": 122,
@@ -20385,7 +20358,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "126:8-13"
+          "loc": "115:5-10"
         },
         {
           "moduleId": 122,
@@ -20394,7 +20367,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "131:5-10"
+          "loc": "117:36-41"
         },
         {
           "moduleId": 122,
@@ -20403,7 +20376,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "133:5-10"
+          "loc": "124:5-10"
         },
         {
           "moduleId": 122,
@@ -20412,7 +20385,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "133:37-42"
+          "loc": "131:8-13"
         },
         {
           "moduleId": 122,
@@ -20421,7 +20394,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "133:167-172"
+          "loc": "136:5-10"
         },
         {
           "moduleId": 122,
@@ -20430,7 +20403,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "133:467-472"
+          "loc": "138:5-10"
         },
         {
           "moduleId": 122,
@@ -20439,7 +20412,34 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "133:917-922"
+          "loc": "138:37-42"
+        },
+        {
+          "moduleId": 122,
+          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
+          "module": "./src/Components/Pages/Contact.js + 2 modules",
+          "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "138:167-172"
+        },
+        {
+          "moduleId": 122,
+          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
+          "module": "./src/Components/Pages/Contact.js + 2 modules",
+          "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "138:467-472"
+        },
+        {
+          "moduleId": 122,
+          "moduleIdentifier": "C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\Dan\\Desktop\\Coding\\Projects\\outdoor-adventures\\src\\Components\\Pages\\Contact.js dd89a1a1376c005d5d8e9cbb0a4d0f29",
+          "module": "./src/Components/Pages/Contact.js + 2 modules",
+          "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "138:917-922"
         },
         {
           "moduleId": 123,
@@ -21213,7 +21213,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-inlinesvg",
-          "loc": "35:25-28"
+          "loc": "40:25-28"
         },
         {
           "moduleId": 122,
@@ -21222,7 +21222,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-inlinesvg",
-          "loc": "63:25-28"
+          "loc": "68:25-28"
         },
         {
           "moduleId": 122,
@@ -21231,7 +21231,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-inlinesvg",
-          "loc": "91:25-28"
+          "loc": "96:25-28"
         },
         {
           "moduleId": 122,
@@ -21240,7 +21240,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-inlinesvg",
-          "loc": "119:25-28"
+          "loc": "124:25-28"
         }
       ],
       "usedExports": [
@@ -27782,7 +27782,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "cjs require",
           "userRequest": "../../images/icons/arrow-icon.svg",
-          "loc": "37:9-53"
+          "loc": "42:9-53"
         },
         {
           "moduleId": 122,
@@ -27791,7 +27791,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "cjs require",
           "userRequest": "../../images/icons/arrow-icon.svg",
-          "loc": "65:9-53"
+          "loc": "70:9-53"
         },
         {
           "moduleId": 122,
@@ -27800,7 +27800,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "cjs require",
           "userRequest": "../../images/icons/arrow-icon.svg",
-          "loc": "93:9-53"
+          "loc": "98:9-53"
         },
         {
           "moduleId": 122,
@@ -27809,7 +27809,7 @@
           "moduleName": "./src/Components/Pages/Contact.js + 2 modules",
           "type": "cjs require",
           "userRequest": "../../images/icons/arrow-icon.svg",
-          "loc": "121:9-53"
+          "loc": "126:9-53"
         }
       ],
       "usedExports": true,
@@ -32837,7 +32837,7 @@
       "name": "./src/Components/Pages/Contact.js + 2 modules",
       "index": 146,
       "index2": 156,
-      "size": 8254,
+      "size": 8387,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -33003,7 +33003,7 @@
           "name": "./src/Components/Contact/FAQS.js",
           "index": 148,
           "index2": 153,
-          "size": 5883,
+          "size": 6016,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -33532,7 +33532,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Pages/Contact.scss",
       "index": 156,
       "index2": 154,
-      "size": 1052,
+      "size": 1109,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -36438,14 +36438,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3876,
+          "size": 3933,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "4bbe5680fc8cd0f79294",
+          "hash": "946ce2cb20fabe2cabbb",
           "siblings": [
           ],
           "parents": [
@@ -36461,7 +36461,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Pages/Contact.scss",
               "index": 0,
               "index2": 1,
-              "size": 1199,
+              "size": 1256,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -36565,7 +36565,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/Pages/Contact.scss",
           "index": 0,
           "index2": 1,
-          "size": 1199,
+          "size": 1256,
           "cacheable": true,
           "built": true,
           "optional": false,
