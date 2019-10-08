@@ -52,18 +52,20 @@ function About() {
             <Hero page='about' title='About' text='Who is Outdoor Adventures?'/>
             <div className='about-section' >
                 <img className='about__story-img' src={require("../../images/story-bg.jpg")} alt='kayak rental building' />
-                <h3>Our Story</h3>
-                <p className='about__story-txt'>
-                Our mission is to provide people with a means to experience the natural wonders
-                of our wonderful little corner of the world while prioritizing safety and fun. Environmental
-                protection and education are very important to us and so we incorporate teachings about 
-                the local ecology and offering simple ways to positively impact the shoreline and waterways,
-                like picking up trash and minimizing harmful runoff. 
-                <br/><br/>
-                We offer only the highest quality tours with our attention to detail and sites, the highest rated customer service,
-                and a fantastically amazing staff at your service. Just checkout our ratings and reviews
-                online!
-                </p>
+                <div className='about__story-txt-container'>
+                    <h3>Our Story</h3>
+                    <p className='about__story-txt'>
+                    Our mission is to provide people with a means to experience the natural wonders
+                    of our wonderful little corner of the world while prioritizing safety and fun. Environmental
+                    protection and education are very important to us and so we incorporate teachings about 
+                    the local ecology and offering simple ways to positively impact the shoreline and waterways,
+                    like picking up trash and minimizing harmful runoff. 
+                    <br/><br/>
+                    We offer only the highest quality tours with our attention to detail and sites, the highest rated customer service,
+                    and a fantastically amazing staff at your service. Just checkout our ratings and reviews
+                    online!
+                    </p>
+                </div>
             </div>
             <div className='about-slider-container'>
                 <Slider {...settings} >
